@@ -1,5 +1,6 @@
 body{
   font-family: 'Lora', serif;
+  color: white;
 }
 
 .nav-link{
@@ -7,11 +8,13 @@ body{
 }
 
 .container-fluid{
-    height: 80vh;
+    height: 100vh;
     width: auto;
-    background-image: url(img/1353454.jpg);}
+    background-image: url(img/1353454.jpg);
+    background-size: cover;
+  }
 
-.puple{
+.purple{
   color: rgb(250, 5, 238);
 }
 
@@ -24,8 +27,24 @@ div.main{
   justify-content: center;
 }
 box-icon{
-  background-color: rgb(255, 255, 255);
+  background-color:white;
   width: 30px;
   height: 30px;
   border-radius: 50%;
+}
+
+a{
+  text-decoration: none;
+  color: white;
+}
+.sec-2{
+  background-color: rgba(0, 0, 0, 0.774);
+}
+
+.photo{
+  background-image: url(img/profile.JPG);
+  width: 250px;
+  height: 250px;
+  background-size: cover;
+  box-shadow: 5px 5px rgba(0, 0, 0, 0.342);
 }
