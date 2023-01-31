@@ -92,6 +92,7 @@ div{
     display: block;
     margin: auto;
     margin-top: 20px;
+  }
 
   .container-3{
     flex-direction: column;
@@ -99,9 +100,8 @@ div{
     text-align: center;
   }
   .sec-3-contents{
-    width: 80%;
-  
-  
+    
+    width: 80% !important;
   }
 }
 // メディアクエリ閉じタグ
@@ -143,19 +143,22 @@ div{
   padding-top: 50px;
 }
 
-.sec-3{
-background-color:rgba(0, 0, 0, 0.850);
-padding: 50px 0 50px;
-}
-
 .container-2{
   display: flex;
   justify-content: space-around;
 }
 
+.sec-3{
+background-color:rgba(0, 0, 0, 0.850);
+padding: 50px 0 50px;
+}
+
 .container-3{ 
   display: flex;
   justify-content: space-around;
+}
+.sec-3-contents{
+  width: 25%;
 }
 
 .purple{
@@ -214,4 +217,3 @@ a{
 .sec-3-tittle{
   padding: 40px 0 20px 0;
 }
-
