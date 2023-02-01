@@ -30,5 +30,7 @@ loader.classList.add("loaded");
 const main = document.querySelector(".main");
 main.style.visibility="visible";
 },1500);
-
 };
+
+
+

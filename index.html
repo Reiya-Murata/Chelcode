@@ -120,16 +120,16 @@
     <div class="container-4">
       <div class="check">
         <h3>管理チェック項目</h3>
-          <ul>
-            <li>デザインカンプを忠実に再現できているか(PC・SP)</li>
-            <li>見出し構造が不自然ではないか</li>
-            <li>水平スクロールしないか</li>
-            <li>JavaScriptの挙動は正しいか</li>
-            <li>altが正しく設定されているか</li>
-            <li>閉じタグチェック</li>
-            <li>各ブラウザで表示崩れは起きていないか</li>
-            <li>リンク切れが起きていないか</li>
-            <li>コンソルエラーが出ていないか</li>
+          <ul class="cheklist">
+            <li class="check">デザインカンプを忠実に再現できているか(PC・SP)</li>
+            <li class="check">見出し構造が不自然ではないか</li>
+            <li class="check">水平スクロールしないか</li>
+            <li class="check">JavaScriptの挙動は正しいか</li>
+            <li class="check">altが正しく設定されているか</li>
+            <li class="check">閉じタグチェック</li>
+            <li class="check">各ブラウザで表示崩れは起きていないか</li>
+            <li class="check">リンク切れが起きていないか</li>
+            <li class="check">コンソルエラーが出ていないか</li>
           </ul>
       </div>
       <div class="pc-img">
@@ -141,9 +141,9 @@
       <h1>WORK</h1>
         <p>制作実績</p>
       <div class="container-5">
-        <div class="portfolio"><a href="https://rachel0309.com/Scroll-Reveal/"><img src="img/スクリーンショット (3).png" alt="制作サイト1"></a></div>
-        <div class="portfolio"><a href="https://rachel0309.com/bootstrap"><img src="img/スクリーンショット (2).png" alt="制作サイト2"></a></div>
-        <div class="portfolio"><a href="https://rachel0309.com/Airbnb/"><img src="img/スクリーンショット (4).png" alt="制作サイト3"></a></div>
+        <div class="portfolio"><a href="https://rachel0309.com/Scroll-Reveal/"><img class="work" src="img/スクリーンショット (3).png" alt="制作サイト1"></a></div>
+        <div class="portfolio"><a href="https://rachel0309.com/bootstrap"><img class="work" src="img/スクリーンショット (2).png" alt="制作サイト2"></a></div>
+        <div class="portfolio"><a href="https://rachel0309.com/Airbnb/"><img class="work" src="img/スクリーンショット (4).png" alt="制作サイト3"></a></div>
       </div>
     </div>
   </section>
@@ -177,8 +177,30 @@
   <div class="space"></div>
 </section>
 
+<script src="script.js" ></script>
+<script src="https://unpkg.com/scrollreveal"></script>
+<script>
+ScrollReveal({ 
+  reset: true,
+  distance:"60px",
+  duretion:2000,
+  delay:200,
+});
 
-  <script src="script.js" ></script>
+ScrollReveal().reveal('.image,.text-1,.photo,h1,h2,h3,p,cheklist,li.check,img.work,.pc-img,icon-box ', { delay: 600 ,origin:"bottom"});
+ScrollReveal().reveal('.text-box', { delay: 700 ,origin:"right"});
+ScrollReveal().reveal('.media-icons i', {
+    delay: 200 ,
+    origin:"bottom",
+    interval:200,});
+ScrollReveal().reveal('.media-info li', {
+delay:500 ,
+origin:"left",
+interval:200,});
+ScrollReveal().reveal('.sec-2 .image,.sec-3 .image', {
+delay:500 ,
+origin:"top",});
+</script>
   <script src="https://unpkg.com/boxicons@2.1.4/dist/boxicons.js">
   </script>
 
