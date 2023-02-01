@@ -146,7 +146,7 @@ div.top{
     transition: all 0.5s;
   }
   .ling1,.ling2,.ling3{
-    position: relative;
+    position: absolute;
     border: 2px solid rgb(250, 5, 238);
     width: 300px !important;
     height: 300px !important;
@@ -158,7 +158,7 @@ div.top{
     display: flex;
     align-items: center;
     justify-content: center;
-    position: relative;
+    position: absolute;
   }
   .container-4{
     padding-bottom: 50px;
@@ -262,13 +262,13 @@ div.top{
   display: flex;
   align-items: center;
   justify-content: center;
-  position: relative;
+  position: absolute;
   h1{
     color: white;
     font-size: 2rem ;
   }
   .ling1,.ling2,.ling3{
-    position: relative;
+    position: absolute;
     border: 2px solid rgb(250, 5, 238);
     width: 400px;
     height: 400px;
