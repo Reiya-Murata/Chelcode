@@ -113,6 +113,8 @@ div.top {
     text-align: start;
   }
   .text-1 {
+    padding-left: 15px !important;
+    padding-right: 15px !important;
     text-align: start;
   }
   .container-2 {
@@ -168,8 +170,8 @@ div.top {
     background-size: cover;
     padding: 20px 100px 50px 0 !important;
   }
-  .check {
-    padding-right: 50px;
+  div.check {
+    padding-left: 20px;
     margin-bottom: 30px;
   }
   .container-5 {
