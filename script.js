@@ -18,3 +18,17 @@ burger.addEventListener("click",()=>{
   //burger animataion
   burger.classList.toggle("toggle");
 });
+// burger menu
+
+window.onload = function(){
+
+setTimeout(()=> {
+//loaderを消す
+const loader = document.querySelector(".loader");
+loader.classList.add("loaded");
+// mainを見せる
+const main = document.querySelector(".main");
+main.style.visibility="visible";
+},1500);
+
+};
