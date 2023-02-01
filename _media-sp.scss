@@ -1,0 +1,148 @@
+@media screen and (max-width:768px){
+  body{
+   font-size: 0.8rem; 
+  overflow-x: hidden !important;
+  }
+.nav-links{
+  position: absolute ;
+  right: 0;
+  height: 92vh;
+  top: 8vh;
+  background-color:   rgb(34, 33, 33);
+  flex-direction: column;
+  align-items: center;
+  width: 25%;
+  transform: translateX(100%);
+  transition: all 0.5S;
+  li{
+    opacity: 0;
+    }
+  }
+  .burger {
+    display: block;
+  }
+  .icons{
+    text-align: center;
+  }
+  .sec-2{
+    text-align: start;
+  }
+  .text-1{
+    padding-left: 15px !important ;
+    padding-right: 15px !important ;
+    text-align: start;
+  }
+  .container-2{
+    flex-direction: column;
+  }
+  .photo{
+    display: block;
+    margin: auto;
+    margin-top: 20px;
+  }
+  .container-3{
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+  }
+  .sec-3-contents{
+    width: 100% !important;
+    padding: 0 30px;
+  }
+  .loaded{
+    width: 300px !important;
+    height: 300px !important;
+    opacity: 0;
+    transition: all 0.5s;
+  }
+  .ling1,.ling2,.ling3{
+    position: absolute;
+    border: 2px solid rgb(250, 5, 238);
+    width: 300px !important;
+    height: 300px !important;
+    animation: animete 5s linear infinite;
+  }
+  .loader{
+    width: 300px !important;
+    height: 300px !important;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+  }
+  .container-4{
+    padding-bottom: 50px;
+    flex-direction: column !important;
+    display: flex;
+    justify-content: center !important;
+    align-items: center !important;
+    
+  }
+  div.pc-img{
+    width: 300px !important;
+    height: 250px;
+    background-size: cover;
+    padding:20px 100px 50px 0 !important;  
+  }
+  div.check{
+    padding-left: 20px ;
+    margin-bottom: 30px;
+  }
+  .container-5{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    .portfolio{
+      text-align: center;
+    }
+  
+    img{
+      width: 90%;
+      height:90%;
+      background-size:cover ;
+    }
+  }
+  .contactform{
+    border: 2px solid rgb(250, 5, 238) ;
+    padding: 20px !important;;
+    }
+    
+    
+    form{
+      width: 350px !important;
+      margin: 0 auto;
+    }
+    .item{
+      overflow: hidden;
+      margin-bottom: 20px;
+    }
+    
+    .label{
+      float: left;
+      margin-right: 20px;
+      width: 300px;
+      border-left:3px solid rgb(250, 5, 238) ;
+      padding-left: 10px;
+    }
+    .inputs{
+      float: left;
+      width: 300px;
+    }
+    textarea{
+      border: 1px solid #aaa;
+      border-radius: 10px;
+      height: 160px;
+      width: 300px;
+      font-size: 15px;
+    }
+    
+    .button-area{
+      text-align: center;
+    }
+    input[type="submit"]{
+      margin: 0 auto !important;
+      padding: 0 auto !important;
+    }
+}
+// メディアクエリ閉じタ
