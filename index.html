@@ -15,7 +15,7 @@
 <body>
   <!-- nav-sectioon -->
   <section class="nav-section">
-    <!-- <header>  -->
+    <header> 
       <nav>
         <div class="logo">
           <img src="img/logo (4).png" alt="ChelCode">
@@ -33,7 +33,7 @@
           <div class="line3"></div>
         </div>
       </nav>
-    <!-- </header> -->
+    </header>
   </section>
   <!-- 1st-section -->
   <section class="sec-1" id="home">
@@ -91,16 +91,19 @@
     <h1 class="service" id="service">SERVICE</h1>
     <div class="container-3">
       <div class="sec-3-contents">
+        <box-icon name="edit"></box-icon>
         <h2 class="sec-3-tittle">コーディング</h2>
         <p>HTML,CSS,JavaScriptにてコーディング。Githubでのバージョン管理や、可読性の高いSCSSファイル分割とCSS設計をおこないます。</p>
       </div>
 
       <div class="sec-3-contents">
+        <box-icon type="logo" name="wordpress"></box-icon>
         <h2 class="sec-3-tittle">WordPress</h2>
         <p>WordPressでのサイト作成、お問い合わせフォームの設置、複数の投稿機能の実装、メジャープラグインのインストールをおこないます。</p>
       </div>
 
       <div class="sec-3-contents">
+        <box-icon name="desktop"></box-icon>
         <h2 class="sec-3-tittle">LP制作・HP制作</h2>
         <p>個人・企業ページ問わず、Webサイト制作全般に対応いたします。SNS連携、バックアップ、各種設定代もおこなっておりますので、お気軽にご相談ください。</p>
       </div>
@@ -133,9 +136,51 @@
       </div>
     </div>
   </section>
+  <section class="sec-5" id="work">
+    <div class="space">
+      <h1>WORK</h1>
+        <p>制作実績</p>
+      <div class="container-5">
+        <div class="portfolio"><a href="https://rachel0309.com/Scroll-Reveal/"><img src="img/スクリーンショット (3).png" alt="制作サイト1"></a></div>
+        <div class="portfolio"><a href="https://rachel0309.com/bootstrap"><img src="img/スクリーンショット (2).png" alt="制作サイト2"></a></div>
+        <div class="portfolio"><a href="https://rachel0309.com/Airbnb/"><img src="img/スクリーンショット (4).png" alt="制作サイト3"></a></div>
+      </div>
+    </div>
+  </section>
+<!-- contact -->
+<section class="contact" id="contact">
+  
+  <div class="space-2">
+    <h1>CONTACT</h1>
+    <div class="contactform">
+    <form action="https://api.staticforms.xyz/submit" method="post">
+      <p class="title">お問い合わせ</p>
+      <div class="item">
+        <label class="label">お名前</label>
+        <input type="text" class="inputs" name="name" required>
+      </div>
+      <div class="item">
+        <label class="label">メールアドレス</label>
+        <input type="text" class="inputs" name="email" required>
+      </div>
+      <div class="item">
+        <label class="label">メッセージ</label>
+        <textarea name="message" id="" cols="30" rows="10"></textarea>
+      </div>
+      <div class="button-area">
+        <input type="submit" value="送信">
+      </div>
+      <input type="hidden" name="accessKey" value="afbd65b6-7a6b-48a9-9346-05873694ddd1">
+    </form>
+  </div>
+  </div>
+  <div class="space"></div>
+</section>
+
 
   <script src="script.js" ></script>
   <script src="https://unpkg.com/boxicons@2.1.4/dist/boxicons.js">
   </script>
+
 </body>
 </html>
