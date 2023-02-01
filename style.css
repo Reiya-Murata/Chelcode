@@ -8,17 +8,22 @@ body {
   font-family: "Lora", serif;
   color: rgb(255, 255, 255);
   overflow-x: hidden !important;
+  z-index: 1;
 }
 
 h1 {
   font-size: 2rem;
 }
 
+.nowloading {
+  font-size: 2rem !important;
+}
+
 header {
   position: fixed;
   width: 100%;
   top: 0;
-  z-index: 5;
+  z-index: 5 !important;
 }
 
 nav {
@@ -28,7 +33,7 @@ nav {
   align-items: center;
   height: 8vh;
   background-color: rgb(34, 33, 33);
-  z-index: 2;
+  z-index: 5;
 }
 
 .nav-links {
@@ -143,7 +148,7 @@ div.top {
     transition: all 0.5s;
   }
   .ling1, .ling2, .ling3 {
-    position: absolute;
+    position: relative;
     border: 2px solid rgb(250, 5, 238);
     width: 300px !important;
     height: 300px !important;
@@ -156,7 +161,7 @@ div.top {
     display: flex;
     align-items: center;
     justify-content: center;
-    position: absolute;
+    position: relative;
   }
   .container-4 {
     padding-bottom: 50px;
@@ -262,14 +267,14 @@ div.top {
   display: flex;
   align-items: center;
   justify-content: center;
-  position: absolute;
+  position: relative;
 }
 .loader h1 {
   color: white;
   font-size: 2rem;
 }
 .loader .ling1, .loader .ling2, .loader .ling3 {
-  position: absolute;
+  position: relative;
   border: 2px solid rgb(250, 5, 238);
   width: 400px;
   height: 400px;
@@ -296,7 +301,7 @@ span.ling3 {
   width: 300px;
   height: 300px;
   opacity: 0;
-  transition: all 0.5s;
+  transition: all 0.3s;
 }
 
 @-webkit-keyframes animete {
@@ -364,7 +369,7 @@ button a {
 }
 
 div.main {
-  margin: auto;
+  margin: o;
   visibility: hidden;
 }
 
