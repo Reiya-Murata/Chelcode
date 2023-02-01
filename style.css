@@ -7,7 +7,7 @@
 body {
   font-family: "Lora", serif;
   color: rgb(255, 255, 255);
-  overflow-x: hidden;
+  overflow-x: hidden !important;
 }
 
 header {
@@ -47,11 +47,27 @@ nav {
   height: 3px;
   background-color: white;
   margin: 5px;
-  transition: all 0.5s ease-in-out;
+  transition: all 0.5s ease;
+}
+
+.toggle .line1 {
+  transform: rotate(-405deg) translate(-5px, 6px);
+}
+
+.toggle .line2 {
+  opacity: 0;
+}
+
+.toggle .line3 {
+  transform: rotate(405deg) translate(-5px, -6px);
 }
 
 .nav-active {
   transform: translateX(0%) !important;
+}
+
+.logo img {
+  width: 150px;
 }
 
 div.top {
@@ -65,6 +81,7 @@ div.top {
 }
 @media screen and (max-width: 768px) {
   body {
+    font-size: 0.8rem;
     overflow-x: hidden !important;
   }
   .nav-links {
@@ -134,6 +151,23 @@ div.top {
     justify-content: center;
     position: absolute;
   }
+  .container-4 {
+    padding-bottom: 50px;
+    flex-direction: column !important;
+    display: flex;
+    justify-content: center !important;
+    align-items: center !important;
+  }
+  div.pc-img {
+    width: 300px !important;
+    height: 250px;
+    background-size: cover;
+    padding: 20px 100px 50px 0 !important;
+  }
+  .check {
+    padding-right: 50px;
+    margin-bottom: 30px;
+  }
 }
 @-webkit-keyframes navLinksFade {
   0% {
@@ -155,18 +189,6 @@ div.top {
     transform: translateX(0px);
   }
 }
-.toggle .line1 {
-  transform: rotate(-45deg), translate(-5, -6px);
-}
-
-.toggle .line2 {
-  opacity: 0;
-}
-
-.toggle .line3 {
-  transform: rotate(45deg), translate(-5, 6px);
-}
-
 .container-1 {
   height: 100vh;
   width: auto;
@@ -317,4 +339,30 @@ a {
 
 .sec-3-tittle {
   padding: 40px 0 20px 0;
+}
+
+.sec-4 {
+  background-color: rgba(0, 0, 0, 0.774);
+}
+
+.container-4 {
+  display: flex;
+  justify-content: space-around;
+}
+
+.pc-img {
+  background-image: url(img/pc.jpg);
+  width: 400px;
+  height: 300px;
+  padding-top: 30px;
+  background-size: cover;
+}
+
+div.space {
+  padding-top: 20px;
+  text-align: center;
+}
+
+.quality {
+  font-size: 2rem !important;
 }/*# sourceMappingURL=style.css.map */
