@@ -1,6 +1,6 @@
 @media screen and (max-width:768px){
   body{
-   font-size: 0.8rem; 
+  font-size: 0.8rem; 
   overflow-x: hidden !important;
   }
 .nav-links{
@@ -20,6 +20,9 @@
   }
   .burger {
     display: block;
+  }
+  .chelcode{
+    font-size: 4rem !important;
   }
   .icons{
     text-align: center;
@@ -104,13 +107,14 @@
     }
   }
   .contactform{
+
     border: 2px solid rgb(250, 5, 238) ;
     padding: 20px !important;;
     }
     
     
     form{
-      width: 350px !important;
+      width: 330px !important;
       margin: 0 auto;
     }
     .item{
