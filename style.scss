@@ -12,7 +12,7 @@ body{
   color: rgb(255, 255, 255);
   overflow-x: hidden !important;
   z-index: 1;
-  -webkit-text-size-adjust:none ;
+  -webkit-text-size-adjust:100% !important;
 }
 h1{
   font-size: 2rem;
