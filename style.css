@@ -64,8 +64,7 @@
     border: 2px solid rgb(250, 5, 238);
     width: 250px !important;
     height: 250px !important;
-    -webkit-animation: animete 5s linear infinite;
-            animation: animete 5s linear infinite;
+    animation: animete 5s linear infinite;
   }
   .loader {
     width: 300px !important;
@@ -151,7 +150,7 @@
 
 body {
   font-family: serif;
-  color: rgb(0, 0, 0);
+  color: rgb(255, 255, 255);
   overflow-x: hidden !important;
   z-index: 1;
   -webkit-text-size-adjust: 100% !important;
@@ -236,16 +235,6 @@ div.top {
     width: 50%;
   }
 }
-@-webkit-keyframes navLinksFade {
-  0% {
-    opacity: 1;
-    transform: translateX(50px);
-  }
-  100% {
-    opacity: 1;
-    transform: translateX(0px);
-  }
-}
 @keyframes navLinksFade {
   0% {
     opacity: 1;
@@ -283,8 +272,7 @@ div.top {
   border: 2px solid rgb(250, 5, 238);
   width: 400px;
   height: 400px;
-  -webkit-animation: animete 5s linear infinite;
-          animation: animete 5s linear infinite;
+  animation: animete 5s linear infinite;
 }
 
 span.ling1 {
@@ -299,8 +287,7 @@ span.ling2 {
 }
 
 span.ling3 {
-  -webkit-animation-delay: 0.5s;
-          animation-delay: 0.5s;
+  animation-delay: 0.5s;
   border-radius: 56% 44% 60% 40%/41% 51% 49% 59%;
   z-index: 2;
 }
@@ -310,15 +297,6 @@ span.ling3 {
   height: 300px;
   opacity: 0;
   transition: all 0.3s;
-}
-
-@-webkit-keyframes animete {
-  0% {
-    transform: rotate(0deg);
-  }
-  100% {
-    transform: rotate(360deg);
-  }
 }
 
 @keyframes animete {
@@ -397,7 +375,7 @@ a {
 }
 
 .photo {
-  background-image: url(img/profile.JPG);
+  background-image: url(img/rachel.png);
   width: 250px;
   height: 250px;
   background-size: cover;
