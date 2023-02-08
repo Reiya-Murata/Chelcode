@@ -187,11 +187,19 @@ ScrollReveal({
   delay:200,
 });
 
-// ScrollReveal().reveal('div.main,', {delay: 5000 ,origin:"bottom",interval:200,});
-ScrollReveal().reveal('.image,.text-1,.photo,h1,h2,h3,p,cheklist,li.check,img.work,.pc-img,box-icon,.media-icons i', { delay: 300 ,origin:"bottom"});
-//ScrollReveal().reveal('.text-box', { delay: 700 ,origin:"right"});
-// ScrollReveal().reveal('.media-info li', {delay:500 ,origin:"left",interval:200,});
-// ScrollReveal().reveal('.sec-2 .image,.sec-3 .image', {delay:500 ,origin:"top",});
+ScrollReveal().reveal('.image,.text-1,.photo,h1,h2,h3,p,cheklist,li.check,img.work,.pc-img,box-icon', { delay: 300 ,origin:"bottom"});
+ScrollReveal().reveal('.text-box', { delay: 700 ,origin:"right"});
+ScrollReveal().reveal('.media-icons i', {
+    delay: 200 ,
+    origin:"bottom",
+    interval:200,});
+ScrollReveal().reveal('.media-info li', {
+delay:500 ,
+origin:"left",
+interval:200,});
+ScrollReveal().reveal('.sec-2 .image,.sec-3 .image', {
+delay:500 ,
+origin:"top",});
 </script>
   <script src="https://unpkg.com/boxicons@2.1.4/dist/boxicons.js">
   </script>
