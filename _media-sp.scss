@@ -11,7 +11,7 @@
   background-color:   rgb(34, 33, 33);
   flex-direction: column;
   align-items: center;
-  width: 25%;
+  width: 25% !important;
   transform: translateX(100%);
   transition: all 0.5S;
   li{
@@ -19,7 +19,7 @@
     }
   }
   .burger {
-    display: block;
+    display: block !important;
   }
   .chelcode{
     font-size: 4rem !important;
