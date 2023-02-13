@@ -36,4 +36,37 @@
           <div class="line3"></div>
         </div>
       </nav>
+
+<!-- heade img　条件分岐 -->
+      <?php if(is_front_page()){?>
+        <div class="header_img"><!-- topページ -->
+        <img src="<?php bloginfo('template_url');?>/img/hader_img.jpg" srcset="<php bloginfo('template_url');?>/img/header_img@2x.jpg 2x">
+        </div>
+      <?php }else if(is_page('about')){?>
+        <div class="header_img"><!-- aboutページ -->
+        <img src="<?php bloginfo('template_url');?>/img/hader_img.jpg" srcset="<php bloginfo('template_url');?>/img/header_about@2x.jpg 2x">
+        </div>
+        <?php }else if(is_page('service')){?>
+          <div class="header_img"><!-- serviceページ -->
+        <img src="<?php bloginfo('template_url');?>/img/hader_service.jpg" srcset="<php bloginfo('template_url');?>/img/header_service@2x.jpg 2x">
+      </div>
+      <?php }else if(is_page('quality')){?>
+        <div class="header_img"><!-- qualityページ -->
+        <img src="<?php bloginfo('template_url');?>/img/hader_quality.jpg" srcset="<php bloginfo('template_url');?>/img/header_quality@2x.jpg 2x">
+        </div>
+        <?php }else if(is_page('works')){?>
+          <div class="header_img"><!-- worlks -->
+        <img src="<?php bloginfo('template_url');?>/img/hader_worlks.jpg" srcset="<php bloginfo('template_url');?>/img/header_worlks@2x.jpg 2x">
+      </div>
+      <?php }else if(is_page('works')){?>
+        <div class="header_img"><!-- priceページ -->
+        <img src="<?php bloginfo('template_url');?>/img/hader_price.jpg" srcset="<php bloginfo('template_url');?>/img/header_price@2x.jpg 2x">
+        </div>
+        <?php }else if(is_page('contact')){?>
+          <div class="header_img"><!-- contactページ -->
+        <img src="<?php bloginfo('template_url');?>/img/hader_contact.jpg" srcset="<php bloginfo('template_url');?>/img/header_contact@2x.jpg 2x">
+      </div>
+        <?php }else{}?>
+
+
     </header>

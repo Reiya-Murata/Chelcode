@@ -112,11 +112,18 @@ div.top{
   }
 }
 
+.header_img{
+  img{
+    width: 100vw;
+    height: 30vh;
+  }
+}
+
 .container-1{
   position: relative;
-  height: 100vh;
+  height: 95vh;
   img{
-  height: 100vh;
+  height: 95vh;
   width: 100vw;
   }
   .content{
