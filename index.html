@@ -23,9 +23,11 @@
         </div>
         <ul class="nav-links">
           <li><a href="#home">HOME</a></li>
+          <li><a href="#about">ABOUT</a></li>
           <li><a href="#service">SERVICE</a></li>
           <li><a href="#quality">QUALITY</a></li>
-          <li><a href="#work">WORK</a></li>
+          <li><a href="#works">WORKS</a></li>
+          <li><a href="#price">PRICE</a></li>
           <li><a href="#contact">CONTACT</a></li>
         </ul>
         <div class="burger">
@@ -39,30 +41,38 @@
   <!-- 1st-section -->
   <section class="sec-1" id="home">
     <div class="container-1">
-      <div class="loader">
-        <span class="ling1"></span>
-        <span class="ling2"></span>
-        <span class="ling3"></span>
-        <h4 class="nowloading">Now loading...</h4>
-      </div>
-      <div class="main">
-        <div class="top">
-        <h1 class="chelcode">Chel<span  class="purple">Code</span></h1>
-        <h2>portfolio site</h2>
-        <a href="https://twitter.com/Rachel_hkz"  class="ps-pe-3"><box-icon type="logo"  name="twitter" ></box-icon></a>
-        <a href="https://github.com/reiya-murata"><box-icon type="logo"   name="github" ></box-icon></a>
-        <br><h3>HP制作・LP制作</h3>
-        <h3>コーディング業務</h3>
-        <h3>WordPressサイト制作</h3>
-        <br><h2>お気軽にお問い合わせください!!</h2>
-        <button type="button"><a href="#contact">お問い合わせはこちら➡</a>
-        </button>
+      <img src="img/1353454.jpg" alt="">
+      <div class="content">
+        <div class="loader">
+          <span class="ling1"></span>
+          <span class="ling2"></span>
+          <span class="ling3"></span>
+          <h4 class="nowloading">Now  loading...</h4>
+        </div>
+        <div class="main">
+          <div class="top">
+          <h1 class="chelcode">Chel<span  class="purple">Code</span></h1>
+          <h2>portfolio site</h2>
+          <a href="https://twitter.com/Rachel_hkz"  class="ps-pe-3"><box-icon type="logo"  name="twitter" ></box-icon></a>
+          <a href="https://github.com/reiya-murata"><box-icon type="logo"   name="github" ></box-icon></a>
+          <br><h3>HP制作・LP制作</h3>
+          <h3>コーディング業務</h3>
+          <h3>WordPressサイト制作</h3>
+          <br><h2>お気軽にお問い合わせください!!</h2>
+          <button type="button"><a href="#contact">お問い合わせはこちら➡</a>
+          </button>
+          <div class="news">
+            <p>news</p>
+            <p>news</p>
+            <p>news</p>
+          </div>
+          </div>
         </div>
       </div>
     </div>
   </section>
   <!-- 2nd section -->
-  <section class="sec-2">
+  <section class="sec-2" id="about">
     <div class="container-2">
     <div class="icons">
       <h1>About</h1>
@@ -73,7 +83,7 @@
         <a href="https://twitter.com/Rachel_hkz"  class="ps-pe-3"><box-icon type="logo" name="twitter">
         </box-icon></a>
         <a href="https://github.com/reiya-murata"><box-icon type="logo"   name="github"></box-icon></a>
-        <div></div>
+        <div>
           <p>Web制作コーダーのれいちぇるです。
           <br>福島県出身、埼玉県在住の26歳。
           <br>個人や企業様のサイト作成、Web制作会社様からの業務委託を請け負います。
@@ -82,8 +92,9 @@
           <br>・お客様への感謝を忘れず、頂いたお仕事に精 一杯取り組みます。
           <br>・品質チェックを忘れずおこない納品いたします。</p>
         </div>
+        </div>
       </div>
-    <div class="photo"></div>
+    <div class="photo"><img src="<?php bloginfo("url");?>/img/rachel.png" alt=""></div>
     </div>
   </section>
   <!-- 3rd section -->
@@ -133,20 +144,24 @@
           </ul>
       </div>
       <div class="pc-img">
+        <img src="img/pc.jpg" alt="">
       </div>
     </div>
   </section>
   <section class="sec-5" id="work">
     <div class="space">
-      <h1>WORK</h1>
+      <h1>WORKS</h1>
         <p>制作実績</p>
       <div class="container-5">
-        <div class="portfolio"><a href="https://rachel0309.com/Scroll-Reveal/"><img class="work" src="img/スクリーンショット (3).png" alt="制作サイト1"></a></div>
-        <div class="portfolio"><a href="https://rachel0309.com/bootstrap"><img class="work" src="img/スクリーンショット (2).png" alt="制作サイト2"></a></div>
-        <div class="portfolio"><a href="https://rachel0309.com/Airbnb/"><img class="work" src="img/スクリーンショット (4).png" alt="制作サイト3"></a></div>
+        <div class="portfolio"><a href="https://rachel0309.com/Scroll-Reveal/"><img class="work" src="<?php bloginfo("url");?>/img/スクリーンショット (3).png" alt="制作サイト1"></a></div>
+        <div class="portfolio"><a href="https://rachel0309.com/bootstrap"><img class="work" src="<?php bloginfo("url");?>/img/スクリーンショット (2).png" alt="制作サイト2"></a></div>
+        <div class="portfolio"><a href="https://rachel0309.com/Airbnb/"><img class="work" src="<?php bloginfo("url");?>/img/スクリーンショット (4).png" alt="制作サイト3"></a></div>
       </div>
     </div>
   </section>
+  <!-- price section -->
+  
+
 <!-- contact -->
 <section class="contact" id="contact">
   
@@ -176,6 +191,10 @@
   </div>
   <div class="space"></div>
 </section>
+
+<footer>
+<div class="copyright"><p>&copy2023 All right reserved</p></div>
+</footer>
 
 <script src="script.js" ></script>
 <script src="https://unpkg.com/scrollreveal"></script>

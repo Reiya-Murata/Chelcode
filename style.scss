@@ -1,3 +1,8 @@
+/*
+Theme Name:ChelCode
+Author:Rachel
+Version:1.0
+*/
 @charset "UTF-8";
 @import "media-sp";
 
@@ -104,23 +109,53 @@ div.top{
 }
 
 .container-1{
+  position: relative;
   height: 100vh;
-  width: auto;
-  background-image: url(img/1353454.jpg);
-  background-size: cover;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  img{
+  height: 100vh;
+  width: 100vw;
+  }
+  .content{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%,-50%);
+    -webkit-transform: translate(-50%,-50%);
+    transform: translate(-50%,-50%);
+    margin:0 !important;
+    padding:0 !important;
+    .news{
+      text-align: left;
+      p{
+        opacity: 1 !important;
+        vertical-align: top;
+      }
+      margin-top: 50px;
+      padding: 10px;
+      width: 400px;
+      height: 200px;
+      border: 1px solid rgb(250, 5, 238);
+    }
+  }
+
 }
 
 .loader{
+  position: absolute;
   width: 400px;
   height: 400px;
   display: flex;
   align-items: center;
   justify-content: center;
-  position: absolute;
+  top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%,-50%);
+    -webkit-transform: translate(-50%,-50%);
+    transform: translate(-50%,-50%);
+    margin:0 !important;
+    padding:0 !important;
   h1{
+    position: absolute;
     color: white;
     font-size: 2rem ;
   }
@@ -226,12 +261,13 @@ a{
 }
 
 .photo{
-  background-image: url(img/rachel.png);
-  width: 250px;
-  height: 250px;
+  img{
+  width: 300px;
+  height: 300px;
   background-size: cover;
   box-shadow: 5px 5px rgba(0, 0, 0, 0.342);
   margin-top: 75px;
+  }
 }
 
 .service{
@@ -253,12 +289,13 @@ a{
     justify-content: space-around;
   }
   .pc-img {
-    background-image:url(img/pc.jpg);
+    img{
     width: 400px;
     height: 300px;
     padding-top: 30px;
     margin-bottom: 40px;
     background-size: cover;
+    }
   }
 
 div.space{
@@ -363,5 +400,10 @@ input[type="submit"]{
   margin-left:150px;
   box-shadow: 1px 1px 3px black;
   cursor: pointer;
+}
+
+.copyright{
+  background-color: rgba(0, 0, 0, 0.774);
+  text-align: center;
 }
 
