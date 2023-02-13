@@ -5,7 +5,7 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="discripton" content="HP・LP・Webサイト格安で作成いたします!。最安5万円～。格安でホームページを作りたい企業様・個人事業主様お気軽にご相談ください!">
-  <link rel="stylesheet" href="style.css">
+  <link rel="<?php bloginfo('template_url')?>stylesheet" href="style.css">
   <title>ChelCode 格安 HP・LP・Webサイト制作</title>
   <link rel="icon" href="img/logo (5).png">
   <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -22,13 +22,13 @@
           <img src="img/logo (4).png" alt="ChelCode">
         </div>
         <ul class="nav-links">
-          <li><a href="#home">HOME</a></li>
-          <li><a href="#about">ABOUT</a></li>
-          <li><a href="#service">SERVICE</a></li>
-          <li><a href="#quality">QUALITY</a></li>
-          <li><a href="#works">WORKS</a></li>
-          <li><a href="#price">PRICE</a></li>
-          <li><a href="#contact">CONTACT</a></li>
+          <li><a href="<?php bloginfo('url');?>#home">HOME</a></li>
+          <li><a href="<?php bloginfo('url');?>#about">ABOUT</a></li>
+          <li><a href="<?php bloginfo('url);?>#service">SERVICE</a></li>
+          <li><a href="<?php bloginfo('url');?>#quality">QUALITY</a></li>
+          <li><a href="<?php bloginfo('url');?>#works">WORKS</a></li>
+          <li><a href="<?php bloginfo('url');?>#price">PRICE</a></li>
+          <li><a href="<?php bloginfo('url');?>#contact">CONTACT</a></li>
         </ul>
         <div class="burger">
           <div class="line1"></div>
@@ -62,9 +62,21 @@
           <button type="button"><a href="#contact">お問い合わせはこちら➡</a>
           </button>
           <div class="news">
-            <p>news</p>
-            <p>news</p>
-            <p>news</p>
+            <ul>
+  
+            <?php if (have_poost()):while(have_post()):the_post();?>
+  
+            <li><a href="<?php the_parmalink();?>">
+            <div class="dete"><?php echo get_the_date("Y.m.d");?>  
+            </div>
+            <div class="ttl"><?php the_title();?>
+            </div>
+            </a>
+            </li>
+  
+            <?php endwhile;endif;?>
+            </ul>
+            <a href="<?php bloginfo('url')/news"></a>
           </div>
           </div>
         </div>
@@ -94,7 +106,7 @@
         </div>
         </div>
       </div>
-    <div class="photo"><img src="<?php bloginfo("url");?>/img/rachel.png" alt=""></div>
+    <div class="photo"><img src="<?php bloginfo('template_url');?>/img/rachel.png" alt=""></div>
     </div>
   </section>
   <!-- 3rd section -->
@@ -144,7 +156,7 @@
           </ul>
       </div>
       <div class="pc-img">
-        <img src="img/pc.jpg" alt="">
+        <img src="<?php bloginfo('template_url')?> img/pc.jpg" alt="">
       </div>
     </div>
   </section>
@@ -153,44 +165,45 @@
       <h1>WORKS</h1>
         <p>制作実績</p>
       <div class="container-5">
-        <div class="portfolio"><a href="https://rachel0309.com/Scroll-Reveal/"><img class="work" src="<?php bloginfo("url");?>/img/スクリーンショット (3).png" alt="制作サイト1"></a></div>
-        <div class="portfolio"><a href="https://rachel0309.com/bootstrap"><img class="work" src="<?php bloginfo("url");?>/img/スクリーンショット (2).png" alt="制作サイト2"></a></div>
-        <div class="portfolio"><a href="https://rachel0309.com/Airbnb/"><img class="work" src="<?php bloginfo("url");?>/img/スクリーンショット (4).png" alt="制作サイト3"></a></div>
+        <div class="portfolio"><a href="https://rachel0309.com/Scroll-Reveal/"><img class="work" src="<?php bloginfo('template_url');?>/img/スクリーンショット (3).png" alt="制作サイト1"></a></div>
+        <div class="portfolio"><a href="https://rachel0309.com/bootstrap"><img class="work" src="<?php bloginfo('template_url');?>/img/スクリーンショット (2).png" alt="制作サイト2"></a></div>
+        <div class="portfolio"><a href="https://rachel0309.com/Airbnb/"><img class="work" src="<?php bloginfo('template_url');?>/img/スクリーンショット (4).png" alt="制作サイト3"></a></div>
       </div>
     </div>
   </section>
   <!-- price section -->
+  <section class="sec-6" id="price">
+      <div class="space">
+      <h1>PRICE</h1>
+      <p class="space">価格</p>
+      <div class="container-6">
+        <div class="sec-3-contents">
+          <box-icon name="edit"></box-icon>
+          <h2 class="sec-3-tittle">LP・HP制作(1～5p)</h2>
+          <p>HTML,CSS,JavaScriptにてLP・HP(1～5ページ)を制作いたします</p>
+          <h3>￥30,000～(税別)</h3>
+        </div>
   
+        <div class="sec-3-contents">
+          <box-icon name="desktop"></box-icon>
+          <h2 class="sec-3-tittle">LP・HP制作(5p～)</h2>
+          <p>HTML,CSS,JavaScriptにてLP・HP(5ページ～)を制作いたします</p>
+          <h3>￥50,000～(税別)</h3>
+        </div>
+
+        <div class="sec-3-contents">
+          <box-icon type="logo" name="wordpress">
+          </box-icon>
+          <h2 class="sec-3-tittle">WordPressオリジナルテーマ作成</h2>
+          <p>お客様自身で、お知らせや実績・ブログを簡単に作成・編集できるWordPressオリジナルテーマを作成いたします。</p>
+          <h3>￥50,000～(税別)</h3>
+        </div>
+      </div>
+    </div>
+  </section>
 
 <!-- contact -->
-<section class="contact" id="contact">
-  
-  <div class="space-2">
-    <h1>CONTACT</h1>
-    <div class="contactform">
-    <form action="https://api.staticforms.xyz/submit" method="post">
-      <p class="title">お問い合わせ</p>
-      <div class="item">
-        <label class="label">お名前</label>
-        <input type="text" class="inputs" name="name" required>
-      </div>
-      <div class="item">
-        <label class="label">メールアドレス</label>
-        <input type="text" class="inputs" name="email" required>
-      </div>
-      <div class="item">
-        <label class="label">メッセージ</label>
-        <textarea name="message" id="" cols="30" rows="10"></textarea>
-      </div>
-      <div class="button-area">
-        <input type="submit" value="送信">
-      </div>
-      <input type="hidden" name="accessKey" value="afbd65b6-7a6b-48a9-9346-05873694ddd1">
-    </form>
-  </div>
-  </div>
-  <div class="space"></div>
-</section>
+
 
 <footer>
 <div class="copyright"><p>&copy2023 All right reserved</p></div>

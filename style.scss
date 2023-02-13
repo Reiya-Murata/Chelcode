@@ -88,7 +88,11 @@ div{
   width: 150px;
 }
 div.top{
+  display: flex;
+  flex-direction: column;
   text-align: center;
+  justify-content: center;
+  align-items: center;
 }
 @media screen and (max-width:1024px){
   .nav-links{
@@ -302,7 +306,6 @@ div.space{
   padding-top: 40px;
   padding-bottom: 40px;
   text-align: center;
-  
 }
 .quality{
   font-size: 2rem !important;
@@ -336,8 +339,16 @@ div{
     padding-bottom: 40px;
   }
 }
+.sec-6{
+  background-color: rgba(0, 0, 0, 0.774);
+  padding-bottom: 50px;
+}
+p.space{
+  padding-bottom: 25px;
+}
+
 .contact{
-  background-color: rgba(0, 0, 0, 0.774);;
+  background-color:rgba(0, 0, 0, 0.850);
 }
 .contactform{
 border: 2px solid rgb(250, 5, 238) ;

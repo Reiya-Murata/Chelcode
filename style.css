@@ -26,11 +26,22 @@ Version:1.0
   .burger {
     display: block !important;
   }
+  .ling1, .ling2, .ling3 {
+    position: absolute;
+    border: 2px solid rgb(250, 5, 238);
+    width: 250px !important;
+    height: 250px !important;
+    animation: animete 5s linear infinite;
+  }
   .chelcode {
     font-size: 4rem !important;
   }
   .icons {
     text-align: center;
+  }
+  .news {
+    width: 300px !important;
+    height: 100px !important;
   }
   .sec-2 {
     text-align: start;
@@ -64,13 +75,6 @@ Version:1.0
     opacity: 0;
     transition: all 0.5s;
   }
-  .ling1, .ling2, .ling3 {
-    position: absolute;
-    border: 2px solid rgb(250, 5, 238);
-    width: 250px !important;
-    height: 250px !important;
-    animation: animete 5s linear infinite;
-  }
   .loader {
     width: 300px !important;
     height: 300px !important;
@@ -86,7 +90,7 @@ Version:1.0
     justify-content: center !important;
     align-items: center !important;
   }
-  div.pc-img {
+  div.pc-img img {
     width: 300px !important;
     height: 250px;
     background-size: cover;
@@ -231,7 +235,11 @@ nav {
 }
 
 div.top {
+  display: flex;
+  flex-direction: column;
   text-align: center;
+  justify-content: center;
+  align-items: center;
 }
 
 @media screen and (max-width: 1024px) {
@@ -475,8 +483,17 @@ div.space {
   padding-bottom: 40px;
 }
 
-.contact {
+.sec-6 {
   background-color: rgba(0, 0, 0, 0.774);
+  padding-bottom: 50px;
+}
+
+p.space {
+  padding-bottom: 25px;
+}
+
+.contact {
+  background-color: rgba(0, 0, 0, 0.85);
 }
 
 .contactform {
