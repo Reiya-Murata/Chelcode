@@ -2,7 +2,7 @@
 
 <div class="w_inner_single_works_container" id="content">
 
-  <?php if (have_poot()):while(have_post()):the_post();?>
+  <?php if (have_posts()):while(have_posts()):the_post();?>
   
   <div class="thumb">
     <img src="<?php echo CFS()->get('thumbnail');?>" alt="">

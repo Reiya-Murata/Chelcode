@@ -32,7 +32,7 @@
                 "post_per_page"=>3
               );
               $the_query=new WP_Query($args);
-              if($the_query->have_post()):
+              if($the_query->have_posts()):
               ?>
               <ul>
                 <?php while($the_query->have_posts()):$the_query->the_post();?>
@@ -55,7 +55,7 @@
           <div class="news">
             <ul>
 
-            <?php if (have_post()):while(have_post()):the_post();?>
+            <?php if (have_posts()):while(have_posts()):the_post();?>
 
             <li><a href="<?php the_parmalink();?>">
               <div class="dete"><?php echo get_the_date("Y.m.d");?>  

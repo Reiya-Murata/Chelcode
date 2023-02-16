@@ -2,7 +2,7 @@
 
 <div id="conttent" class="page_wrap winner" >
 
-<?php if (have_post()):while(have_post()):the_post();?>
+<?php if (have_posts()):while(have_posts()):the_post();?>
 
 <h1><?php the_titele();?></h1>
 <div class="page_container">
