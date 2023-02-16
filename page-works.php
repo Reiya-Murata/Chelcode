@@ -26,12 +26,7 @@ Template Name:works
       <a href="<?php echo CFS()->get("work_url_2");?>"><img class="work" src="<?php echo CFS()->get("work_img_2");?>></a>
     <div class="portfolio">
     <?php echo CFS()->get("work_title_3");?>
-      <a href="    <?php echo CFS()->get("work_url_3");?>"><img class="work" src="<?php echo CFS()->get("work_img_3");?>"></a>
-    </div>
-    <div class="portfolio">
-    <?php echo CFS()->get("work_title_4");?>
-      <a href="<?php echo CFS()->get("work_url_4");?>">
-      <img class="work" src="<?php echo CFS()->get("work_img_4");?>"></a>
+      <a href="<?php echo CFS()->get("work_url_3");?>"><img class="work" src="<?php echo CFS()->get("work_img_3");?>"></a>
     </div>
 
   </section>
