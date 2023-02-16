@@ -7,8 +7,8 @@ Template Name:works
 
 <div id="conttent" class="page_wrap winner">
   <div id="main">
-    <div class="page_head"><?php the_title();?>
-  </div>
+
+
 
   <section class="sec-5" id="work">
     <div class="space">

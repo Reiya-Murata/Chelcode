@@ -47,7 +47,8 @@
               <?php wp_reset_postdata();?>
               <?php else:?>
               <?php endif;?>
-              <div class="btn_stn"><a href="<?php bloginfo('url');?>/works">一覧を見る</a></div>
+              <div class="btn_stn">
+                <a href="<?php bloginfo('url');?>/works">一覧を見る</a></div>
             </div>
           </section>
 
