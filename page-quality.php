@@ -3,9 +3,6 @@
 <div id="conttent" class="page_wrap winner" >
 
   <div id="main">
-    <div class="page_head"><?php the_title();?>
-    </div>
-
     <section class="sec-4" id="quality">
       <div class="space">
       <h1 class="quality">QUALITY</h1>
@@ -29,9 +26,9 @@
           </ul>
         </div>
         <div class="pc-img">
-        <img src="<?php bloginfo('template_url')?> /img/pc.jpg" alt="">
+        <img src="<?php bloginfo('template_url');?>/img/pc.jpg" alt="">
         </div>
-      </div>
+      </div>     
     </section>
 
 

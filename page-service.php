@@ -3,9 +3,6 @@
 <div id="conttent" class="page_wrap winner" >
 
   <div id="main">
-    <div class="page_head"><?php the_title();?>
-    </div>
-
     <section class="sec-3" id="service">
     <h1 class="service" id="service">SERVICE</h1>
     <div class="container-3">

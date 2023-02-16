@@ -2,8 +2,6 @@
 
 <div id="conttent" class="page_wrap winner" >
   <div id="main">
-    <div class="page_head"><?php the_title();?>
-    </div>
     <section class="sec-2" id="about">
     <div class="container-2">
     <div class="icons">
