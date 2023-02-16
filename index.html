@@ -64,7 +64,7 @@
           <div class="news">
             <ul>
   
-            <?php if (have_poost()):while(have_post()):the_post();?>
+            <?php if (have_post()):while(have_post()):the_post();?>
   
             <li><a href="<?php the_parmalink();?>">
             <div class="dete"><?php echo get_the_date("Y.m.d");?>  
@@ -110,7 +110,7 @@
     </div>
   </section>
   <!-- 3rd section -->
-  <section class="sec-3">
+  <section class="sec-3" id="service">
     <h1 class="service" id="service">SERVICE</h1>
     <div class="container-3">
       <div class="sec-3-contents">
@@ -160,14 +160,22 @@
       </div>
     </div>
   </section>
+  <!-- work section -->
   <section class="sec-5" id="work">
     <div class="space">
       <h1>WORKS</h1>
         <p>制作実績</p>
       <div class="container-5">
-        <div class="portfolio"><a href="https://rachel0309.com/Scroll-Reveal/"><img class="work" src="<?php bloginfo('template_url');?>/img/スクリーンショット (3).png" alt="制作サイト1"></a></div>
-        <div class="portfolio"><a href="https://rachel0309.com/bootstrap"><img class="work" src="<?php bloginfo('template_url');?>/img/スクリーンショット (2).png" alt="制作サイト2"></a></div>
-        <div class="portfolio"><a href="https://rachel0309.com/Airbnb/"><img class="work" src="<?php bloginfo('template_url');?>/img/スクリーンショット (4).png" alt="制作サイト3"></a></div>
+        <div class="portfolio">
+          <p>デモサイト作成</p>
+          <a href="https://rachel0309.com/Scroll-Reveal/">
+          <img class="work" src="<?php bloginfo('template_url');?>/img/スクリーンショット (3).png" alt="制作サイト1"></a></div>
+        <div class="portfolio">
+          <p>デモサイト作成</p>
+          <a href="https://rachel0309.com/bootstrap"><img class="work" src="<?php bloginfo('template_url');?>/img/スクリーンショット (2).png" alt="制作サイト2"></a></div>
+        <div class="portfolio">
+          <p>デモサイト作成</p>
+          <a href="https://rachel0309.com/Airbnb/"><img class="work" src="<?php bloginfo('template_url');?>/img/スクリーンショット (4).png" alt="制作サイト3"></a></div>
       </div>
     </div>
   </section>

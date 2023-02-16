@@ -22,11 +22,40 @@
           <br><h2>お気軽にお問い合わせください!!</h2>
           <button type="button"><a href="#contact">お問い合わせはこちら➡</a>
           </button>
+          <!-- 制作実績 -->
+          <section class="work_list">
+            <div class="head">制作実績</div>
+            <div class="news_list">
+              <?php
+              $args=array{
+                "post_type"=>"works",//投稿タイプスラッグ
+                "post_per_page"=>3
+              };
+              $the_query=new WP_Query($args);
+              if($the_queary->have_post());
+              ?>
+              <ul>
+                <?php while($the_query->have_posts());$the_query->the_post();?>
+                <li>
+                <a href="<?php the_parmalink();?>">
+                <div class="img><img src="<?php echo CFS()->get("thumbnail");?>"></div>
+                <div class="client">クライアント:<?php echo CFS()->get("client");?></div>
+                </a>
+                </li>
+                <?php endwhile;?>
+            </ul>
+              <?php wp_reset_postdata();?>
+              <?php else;?>
+              <?php end if;?>
+              <div class="btn_stn"><a href="<?php bloginfo('url');?>/works">一覧を見る</a></div>
+            </div>
+          </section>
+
           <!-- お知らせ -->
           <div class="news">
             <ul>
 
-            <?php if (have_poost()):while(have_post()):the_post();?>
+            <?php if (have_post()):while(have_post()):the_post();?>
 
             <li><a href="<?php the_parmalink();?>">
               <div class="dete"><?php echo get_the_date("Y.m.d");?>  
