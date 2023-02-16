@@ -112,5 +112,5 @@ $(document).on('ready', function() {
     slidesToScroll: 1 // スクロールするスライド数を設定
   });
 });
-
+</script>
     
