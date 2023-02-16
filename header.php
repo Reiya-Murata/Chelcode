@@ -38,7 +38,11 @@
       </nav>
 </header>
 <!-- heade img　条件分岐 -->
-      <?php if(is_page(about)){?>
+      <?php if(is_front_page()){?>
+        <div class="header_img1"><!-- topページ -->
+        <img src="<?php bloginfo('template_url');?>/img/hader_img.jpg">
+        </div>
+      <?php }else if(is_page('about')){?>
         <div class="header_img"><!-- aboutページ -->
         <img src="<?php bloginfo('template_url');?>/img/24633751_l.jpg">
         </div>

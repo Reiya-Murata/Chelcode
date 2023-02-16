@@ -257,6 +257,10 @@ div.top {
     transform: translateX(0px);
   }
 }
+.header_img1 {
+  display: none;
+}
+
 .header_img {
   height: 25vh;
   width: 100vw;
