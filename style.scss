@@ -211,10 +211,11 @@ span.ling3{
 }
 
 .news_list{
+  list-style: none !important;
   ul{
-    list-style: none;
+    list-style: none !important;
     li{
-      list-style: none;
+      list-style: none !important;
     }
   }
 }
@@ -350,6 +351,10 @@ background-color: rgba(0, 0, 0, 0.850);
   justify-content: space-around;
   .portfolio{
     text-align: center;
+  }
+  .portfolio{
+    max-width: 400px;
+    max-height: auto;
   }
 div{
   padding-top: 30px;

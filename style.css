@@ -354,11 +354,14 @@ span.ling3 {
     transform: rotate(360deg);
   }
 }
+.news_list {
+  list-style: none !important;
+}
 .news_list ul {
-  list-style: none;
+  list-style: none !important;
 }
 .news_list ul li {
-  list-style: none;
+  list-style: none !important;
 }
 
 .btn_stn {
@@ -492,6 +495,10 @@ div.space {
 }
 .container-5 .portfolio {
   text-align: center;
+}
+.container-5 .portfolio {
+  max-width: 400px;
+  max-height: auto;
 }
 .container-5 div {
   padding-top: 30px;
