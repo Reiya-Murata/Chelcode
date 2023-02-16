@@ -32,7 +32,7 @@
                 "post_per_page"=>3
               );
               $the_query=new WP_Query($args);
-              if($the_queary->have_post()):
+              if($the_query->have_post()):
               ?>
               <ul>
                 <?php while($the_query->have_posts()):$the_query->the_post();?>
