@@ -1,7 +1,6 @@
 <?php get_header();?>
 
 <div id="conttent" class="page_wrap winner" >
-<div class="header_img"> </div>
   <div id="main">
     <div class="page_head"><?php the_title();?>
     </div>

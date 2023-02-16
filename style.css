@@ -257,12 +257,8 @@ div.top {
     transform: translateX(0px);
   }
 }
-.header_img {
-  width: 100vw;
-  height: 25vh;
-}
 .header_img img {
-  height: 25vh;
+  height: 30vh;
   width: 100vw;
 }
 
