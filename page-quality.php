@@ -29,7 +29,7 @@
           </ul>
         </div>
         <div class="pc-img">
-        <img src="<?php bloginfo('template_url')?> img/pc.jpg" alt="">
+        <img src="<?php bloginfo('template_url')?> /img/pc.jpg" alt="">
         </div>
       </div>
     </section>

@@ -113,9 +113,11 @@ div.top{
 }
 
 .header_img{
+  width: 100vw;
+  height: 30vh;
   img{
-    width: 100vw;
-    height: 30vh;
+    height: 100px;
+    width: 100px;
   }
 }
 
@@ -204,6 +206,8 @@ span.ling3{
     transform: rotate(360deg);
   }
 }
+
+
 
 .sec-2{
   background-color: rgba(0, 0, 0, 0.774);

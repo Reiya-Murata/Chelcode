@@ -27,26 +27,26 @@
             <div class="head">制作実績</div>
             <div class="news_list">
               <?php
-              $args=array{
+              $args=array(
                 "post_type"=>"works",//投稿タイプスラッグ
                 "post_per_page"=>3
-              };
+              );
               $the_query=new WP_Query($args);
-              if($the_queary->have_post());
+              if($the_queary->have_post()):
               ?>
               <ul>
-                <?php while($the_query->have_posts());$the_query->the_post();?>
+                <?php while($the_query->have_posts()):$the_query->the_post();?>
                 <li>
                 <a href="<?php the_parmalink();?>">
-                <div class="img><img src="<?php echo CFS()->get("thumbnail");?>"></div>
+                <div class="img"><img src="<?php echo CFS()->get("thumbnail");?>"></div>
                 <div class="client">クライアント:<?php echo CFS()->get("client");?></div>
                 </a>
                 </li>
                 <?php endwhile;?>
             </ul>
               <?php wp_reset_postdata();?>
-              <?php else;?>
-              <?php end if;?>
+              <?php else:?>
+              <?php endif;?>
               <div class="btn_stn"><a href="<?php bloginfo('url');?>/works">一覧を見る</a></div>
             </div>
           </section>
