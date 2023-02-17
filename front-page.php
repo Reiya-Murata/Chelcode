@@ -36,8 +36,8 @@
             <li>
               <a href="<?php the_permalink();?>">
               <div class="date"><?php echo get_the_date("Y.m.d");?> 
-              <div class="ttl"><?php the_title();?>
-              </div>
+              <?php the_title();?>
+              
               </div>
 
               </a>
@@ -46,7 +46,8 @@
             <?php endwhile;endif;?>
 
             </ul>
-            <button><a href="">一覧を見る</a></button>
+          
+          <div class="btn"><button><a href="">一覧を見る</a></button></div>
           </div>
           </section>
           </div>
@@ -80,8 +81,9 @@
               <?php wp_reset_postdata();?>
               <?php else:?>
               <?php endif;?>
+              </div>
               <button>
-                <a href="<?php bloginfo('url');?>/works">一覧を見る</a></div>
+                <a href="<?php bloginfo('url');?>/works">一覧を見る</a>
               </button>
           </section>
 

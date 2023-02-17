@@ -154,9 +154,11 @@ div.top{
       width: 400px;
       height: 200px;
       border: 1px solid rgb(250, 5, 238);
-      .news_list{
-        display: flex;
-      }
+    .btn{
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+    }
     }
       li{
         color: white;
@@ -171,10 +173,13 @@ div.top{
     }
   }
 
-.work_list{
+section.work_list{
   background-color: rgba(0, 0, 0, 0.774);
   padding-bottom: 50px;
   padding-top: 50px;
+  div.work_list{
+    display: flex;
+  }
   .head{
     text-align: center;
   }
