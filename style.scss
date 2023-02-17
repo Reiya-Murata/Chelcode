@@ -139,11 +139,6 @@ div.top{
     -webkit-transform: translate(-50%,-50%);
     transform: translate(-50%,-50%);
     }
-
-    .w_inner{
-      background-color: rgba(0, 0, 0, 0.774) !important;
-      padding: 100px 50px !important;
-    }
     .front_news{
       margin-top: 10px !important;
       text-align: left;
@@ -168,7 +163,11 @@ div.top{
         color: white;
       }
     }
-  
+    
+    .w_inner{
+      background-color: rgba(0, 0, 0, 0.774) !important;
+      padding: 100px 50px !important;
+    }
 
   .btn{
     justify-content: center;

@@ -284,10 +284,6 @@ div.top {
   left: 50%;
   transform: translate(-50%, -50%);
 }
-.container-1 .w_inner {
-  background-color: rgba(0, 0, 0, 0.774) !important;
-  padding: 100px 50px !important;
-}
 .container-1 .front_news {
   margin-top: 10px !important;
   text-align: left;
@@ -309,6 +305,11 @@ div.top {
 }
 .container-1 .ttl {
   color: white;
+}
+
+.w_inner {
+  background-color: rgba(0, 0, 0, 0.774) !important;
+  padding: 100px 50px !important;
 }
 
 .btn {
