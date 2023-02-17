@@ -154,6 +154,9 @@ div.top{
       width: 400px;
       height: 200px;
       border: 1px solid rgb(250, 5, 238);
+      .news_list{
+        display: flex;
+      }
     }
       li{
         color: white;
@@ -244,7 +247,7 @@ span.ling3{
 
 .sec-2{
   background-color: rgba(0, 0, 0, 0.774);
-  padding-bottom: 50px;
+  padding-bottom: 500px;
   padding-top: 50px;
 }
 
@@ -255,7 +258,7 @@ span.ling3{
 
 .sec-3{
 background-color:rgba(0, 0, 0, 0.850);
-padding: 50px 0 50px;
+padding: 50px 0 500px;
 }
 
 .container-3{ 
@@ -335,6 +338,7 @@ a{
   .container-4 {
     display: flex;
     justify-content: space-around;
+    padding-bottom: 50px;
   }
   .pc-img {
     img{

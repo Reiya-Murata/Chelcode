@@ -300,6 +300,9 @@ div.top {
 .container-1 .content .front_news .sec_head {
   text-align: center !important;
 }
+.container-1 .content .front_news .news_list {
+  display: flex;
+}
 .container-1 .content li {
   color: white;
   list-style: none;
