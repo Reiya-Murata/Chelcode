@@ -599,9 +599,13 @@ p.space {
 }
 
 .form {
-  justify-content: center;
+  justify-content: center !important;
+  align-items: center !important;
   width: 550px;
-  margin: 0 auto;
+  margin: 0 auto !important;
+}
+.form p {
+  width: 150px !important;
 }
 
 .item {

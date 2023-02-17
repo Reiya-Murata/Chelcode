@@ -457,9 +457,13 @@ font-weight: bold;
 }
 
 .form{
-  justify-content: center;
+  justify-content: center !important;
+  align-items: center !important;
   width: 550px;
-  margin: 0 auto;
+  margin: 0 auto !important;
+  p{
+    width: 150px !important;
+  }
 }
 .item{
   overflow: hidden;
