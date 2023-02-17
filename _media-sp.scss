@@ -119,7 +119,7 @@
     }
     
     
-    .form{
+    form{
       width: 330px !important;
       margin: 0 auto;
     }
@@ -127,16 +127,15 @@
       overflow: hidden;
       margin-bottom: 20px;
     }
-
-
-    .center{
-      text-align: center !important;
+    
+    .label{
+      float: left;
+      margin-right: 20px;
+      width: 300px;
+      border-left:3px solid rgb(250, 5, 238) ;
+      padding-left: 10px;
     }
-
-
-
-  
-    input{
+    .inputs{
       float: left;
       width: 300px;
     }
