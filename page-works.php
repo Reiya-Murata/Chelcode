@@ -20,17 +20,18 @@ Template Name:works
       <!-- #region -->
     <div class="portfolio">
       <?php echo CFS()->get("work_title_1");?>
-      <img class="work" src="<?php echo CFS()->get("work_img_1");?>"><?php echo CFS()->get("work_url_1");?>
+      <img class="work" src="<?php echo CFS()->get("work_img_1");?>">
+      <br><?php echo CFS()->get("work_url_1");?>
     </div>
     <div class="portfolio">
     <?php echo CFS()->get("work_title_2");?>
       <img class="work" src="<?php echo CFS()->get("work_img_2");?>">
-      <?php echo CFS()->get("work_url_2");?>
+      <br><?php echo CFS()->get("work_url_2");?>
     </div>
     <div class="portfolio">
     <?php echo CFS()->get("work_title_3");?>
       <img class="work" src="<?php echo CFS()->get("work_img_3");?>">
-      <?php echo CFS()->get("work_url_3");?>
+      <br><?php echo CFS()->get("work_url_3");?>
     </div>
   </div>
   
