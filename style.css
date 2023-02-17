@@ -395,7 +395,7 @@ span.ling3 {
 
 .sec-2 {
   background-color: rgba(0, 0, 0, 0.774);
-  padding-bottom: 300px !important;
+  padding-bottom: 200px !important;
   padding-top: 50px;
 }
 
@@ -407,7 +407,7 @@ span.ling3 {
 
 .sec-3 {
   background-color: rgba(0, 0, 0, 0.85);
-  padding: 50px 0 300px !important;
+  padding: 50px 0 250px !important;
 }
 
 .container-3 {
@@ -512,12 +512,17 @@ div.space {
   background-color: rgba(0, 0, 0, 0.85);
 }
 
+div.works {
+  padding-top: 30px !important;
+  text-align: center !important;
+  justify-content: center !important;
+}
+
 .container-5 {
   text-align: center;
   display: flex;
   justify-content: space-around;
   padding-bottom: 250px;
-  padding-top: 30px;
 }
 .container-5 .portfolio {
   text-align: center;
@@ -551,7 +556,7 @@ div.space {
 
 .sec-6 {
   background-color: rgba(0, 0, 0, 0.774);
-  padding-bottom: 250px;
+  padding-bottom: 200px;
 }
 .sec-6 h1.space {
   padding-top: 30px;
