@@ -283,31 +283,31 @@ div.top {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  margin: 0 !important;
-  padding: 0 !important;
 }
-.container-1 .content .front_news {
-  margin-top: 10px;
+.container-1 .w_inner {
+  background-color: rgba(0, 0, 0, 0.774) !important;
+  padding: 100px 50px !important;
 }
-.container-1 .content .front_news {
+.container-1 .front_news {
+  margin-top: 10px !important;
   text-align: left;
   margin-top: 0px;
   padding: 10px;
   width: 400px;
-  height: 250px;
+  height: 210px !important;
   border: 1px solid rgb(250, 5, 238);
 }
-.container-1 .content .front_news .sec_head {
+.container-1 .front_news .sec_head {
   text-align: center !important;
 }
-.container-1 .content li {
+.container-1 li {
   color: white;
   list-style: none;
 }
-.container-1 .content .date {
+.container-1 .date {
   color: white;
 }
-.container-1 .content .ttl {
+.container-1 .ttl {
   color: white;
 }
 
