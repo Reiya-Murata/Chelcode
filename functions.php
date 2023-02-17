@@ -44,7 +44,7 @@ function cpt_register_dep(){
   $labels=[
     "singular_name"=>"dep",
     ];
-    $args-[
+    $args=[
       "label"=>"カテゴリー",
       "labels"=>$labels,
       "publicly_queryable"=>true,
