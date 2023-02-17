@@ -313,7 +313,7 @@ div.top {
 
 .w_inner {
   background-color: rgba(0, 0, 0, 0.774) !important;
-  padding: 50px 0px !important;
+  padding: 100px 50px !important;
 }
 .w_inner li {
   list-style: none;
@@ -598,18 +598,9 @@ p.space {
   font-weight: bold;
 }
 
-.center {
-  text-align: center !important;
-}
-
-.form {
-  justify-content: center !important;
-  align-items: center !important;
-  width: 550px;
-  margin: 0 auto !important;
-}
-.form p {
-  width: 150px !important;
+form {
+  width: 460px;
+  margin: 0 auto;
 }
 
 .item {
@@ -618,20 +609,23 @@ p.space {
 }
 
 .label {
-  float: left !important;
+  float: left;
   margin-right: 20px;
-  width: 150px;
+  width: 135px;
   border-left: 3px solid rgb(250, 5, 238);
   padding-left: 10px;
 }
 
+.inputs {
+  float: left;
+  width: 300px;
+}
+
 input[type=text],
-input[type=email],
-input[type=texttaria] {
+input[type=email] {
   border: solid 1px #aaa;
   padding: 10px;
   border-radius: 5px;
-  width: 300px !important;
 }
 
 textarea {
@@ -657,10 +651,6 @@ input[type=submit] {
   margin-left: 150px;
   box-shadow: 1px 1px 3px black;
   cursor: pointer;
-}
-
-.btn-under {
-  padding-bottom: 50px !important;
 }
 
 .copyright {
