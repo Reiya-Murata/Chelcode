@@ -451,22 +451,26 @@ margin-bottom: 20px;
 font-weight: bold;
 }
 
-.td-left::before{
-border-left:  20px solid rgb(250, 5, 238);
-}
 .td_left{
+  border-left:  3px solid rgb(250, 5, 238);
   width: 135px;
   padding-top: 0px !important;
   padding-bottom: 5px !important;
 }
 .td_right{
+  input{
   width:300px;
   padding-top: 0px !important;
   padding-bottom: 5px !important;
+  textalia{
+    width: 300px !important;
+    }
+  }
 }
 .center{
   text-align: center !important;
 }
+
 form{
   width: 460px;
   margin: 0 auto;
