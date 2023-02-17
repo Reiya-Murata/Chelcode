@@ -39,7 +39,7 @@ Version:1.0
   .icons {
     text-align: center;
   }
-  .news {
+  .news_list {
     width: 300px !important;
     height: 100px !important;
   }
@@ -286,7 +286,7 @@ div.top {
   margin: 0 !important;
   padding: 0 !important;
 }
-.container-1 .content .news {
+.container-1 .content .news_list {
   text-align: left;
   margin-top: 50px;
   padding: 10px;
@@ -294,7 +294,7 @@ div.top {
   height: 200px;
   border: 1px solid rgb(250, 5, 238);
 }
-.container-1 .content .news p {
+.container-1 .content .news_list p {
   opacity: 1 !important;
   vertical-align: top;
 }
