@@ -457,7 +457,9 @@ font-weight: bold;
 }
 
 .form{
-  width: 460px;
+  justify-content: center;
+  text-align: center;
+  width: 550px;
   margin: 0 auto;
 }
 .item{
@@ -466,9 +468,8 @@ font-weight: bold;
 }
 
 .label{
-  float: left;
   margin-right: 20px;
-  width: 160px;
+  width: 200px;
   border-left:3px solid rgb(250, 5, 238) ;
   padding-left: 10px;
 }
@@ -481,7 +482,7 @@ input[type="text"],
 input[type="email"],
 input[type=texttaria]{
 border: solid 1px #aaa;
-padding: 0px; 
+padding: 10px; 
 border-radius: 5px;
 }
 textarea{
