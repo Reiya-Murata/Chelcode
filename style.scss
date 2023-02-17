@@ -146,9 +146,9 @@ div.top{
     }
     .news_list{
       text-align: left;
-      p{
-        opacity: 1 !important;
-        vertical-align: top;
+      .sec_haed{
+        text-align: center;
+      }
       }
       margin-top: 0px;
       padding: 10px;
@@ -158,6 +158,12 @@ div.top{
       li{
         color: white;
         list-style: none;
+      }
+      .date{
+        color: white;
+      }
+      .ttl{
+        color: white;
       }
     }
   }

@@ -305,6 +305,12 @@ div.top {
   color: white;
   list-style: none;
 }
+.container-1 .content .news_list .date {
+  color: white;
+}
+.container-1 .content .news_list .ttl {
+  color: white;
+}
 
 .loader {
   position: absolute;
