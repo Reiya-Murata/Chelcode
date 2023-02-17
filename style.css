@@ -117,7 +117,7 @@ Version:1.0
     border: 2px solid rgb(250, 5, 238);
     padding: 20px !important;
   }
-  form {
+  .form {
     width: 330px !important;
     margin: 0 auto;
   }
@@ -610,7 +610,7 @@ p.space {
   text-align: center !important;
 }
 
-form {
+.form {
   width: 460px;
   margin: 0 auto;
 }
@@ -630,6 +630,7 @@ form {
 
 input {
   width: 300px;
+  padding: 10px;
 }
 
 input[type=text],

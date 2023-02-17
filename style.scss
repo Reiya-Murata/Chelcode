@@ -456,7 +456,7 @@ font-weight: bold;
   text-align: center !important;
 }
 
-form{
+.form{
   width: 460px;
   margin: 0 auto;
 }
@@ -474,6 +474,7 @@ form{
 }
 input{
   width: 300px;
+  padding: 10px;
 }
 
 input[type="text"],
