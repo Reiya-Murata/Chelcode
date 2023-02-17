@@ -182,6 +182,7 @@ div.top{
     justify-content: center;
     align-items: center;
     text-align: center;
+    z-index: 10;
   }
 section.work_list{
   background-color: rgba(0, 0, 0, 0.774);
@@ -226,14 +227,17 @@ section.work_list{
 }
 span.ling1{
   border-radius: 45% 55% 41% 59% / 50% 44% 56% 50% ;
+  z-index: -1;
 }
 span.ling2{
   animation-direction:reverse;
   border-radius: 52% 48% 47% 53% / 53% 42% 58% 47% ;
+  z-index: -1;
 }
 span.ling3{
   animation-delay: 0.5s;
   border-radius: 56% 44% 60% 40% / 41% 51% 49% 59% ;
+  z-index: -1;
 }
 .loaded{
   width: 300px ;

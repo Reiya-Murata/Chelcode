@@ -22,8 +22,7 @@
           <h3>コーディング業務</h3>
           <h3>WordPressサイト制作</h3>
           <br><h2>お気軽にお問い合わせください!!</h2>
-          <button type="button"><a href="#contact">お問い合わせはこちら➡</a>
-          </button>
+          <div class="btn"><button><a href="<?php bloginfo('url')?>/contact">お問い合わせはこちら➡</a></button></div>
 
           <!-- お知らせ -->
           <section class="front_news">
