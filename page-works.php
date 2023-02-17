@@ -12,7 +12,7 @@ Template Name:works
 
   <section class="sec-5" id="work">
     
-      <
+      
       <div class="container-5">
       <h1>WORKS</h1>
         <p>制作実績</p>
