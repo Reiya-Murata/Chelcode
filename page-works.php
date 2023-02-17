@@ -11,11 +11,12 @@ Template Name:works
 
 
   <section class="sec-5" id="work">
-    
-      
-      <div class="container-5">
+    <div class="works">
       <h1>WORKS</h1>
-        <p>制作実績</p>
+      <p>制作実績</p>
+    </div> 
+      <div class="container-5">
+
       <!-- #region -->
     <div class="portfolio">
       <?php echo CFS()->get("work_title_1");?>
@@ -33,11 +34,10 @@ Template Name:works
       <img class="work" src="<?php echo CFS()->get("work_img_3");?>">
     </div>
   </div>
-  </div>
+  
   </section>
-
-
   </div>
 </div>
+
 
 <?php get_footer();?>
