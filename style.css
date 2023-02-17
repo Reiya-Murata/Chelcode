@@ -315,6 +315,12 @@ div.top {
   background-color: rgba(0, 0, 0, 0.774) !important;
   padding: 100px 50px !important;
 }
+.w_inner li {
+  list-style: none;
+}
+.w_inner a {
+  color: white;
+}
 
 .btn {
   justify-content: center;

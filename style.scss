@@ -170,6 +170,12 @@ div.top{
     .w_inner{
       background-color: rgba(0, 0, 0, 0.774) !important;
       padding: 100px 50px !important;
+      li{
+        list-style: none;
+      }
+      a{
+        color: white;
+      }
     }
 
   .btn{
