@@ -400,6 +400,7 @@ span.ling3 {
 }
 
 .container-2 {
+  padding-top: 30px;
   display: flex;
   justify-content: space-around;
 }
@@ -514,7 +515,7 @@ div.space {
 .container-5 {
   display: flex;
   justify-content: space-around;
-  padding-bottom: 300px;
+  padding-bottom: 250px;
 }
 .container-5 .portfolio {
   text-align: center;
@@ -545,13 +546,14 @@ div.space {
 
 .sec-6 {
   background-color: rgba(0, 0, 0, 0.774);
-  padding-bottom: 50px;
+  padding-bottom: 250px;
 }
 .sec-6 h1.space {
   padding-top: 30px;
 }
 .sec-6 .container-6 {
   display: flex;
+  justify-content: space-around;
 }
 
 p.space {
