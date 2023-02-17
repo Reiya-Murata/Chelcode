@@ -5,7 +5,7 @@ Template Name:works
 */
 ?>
 
-<div id="content" class="page_wrap w_inner">
+<div id="content">
   <div id="main">
 
 

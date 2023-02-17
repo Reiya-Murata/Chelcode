@@ -1,6 +1,6 @@
 <?php get_header();?>
 
-<div id="content" class="page_wrap w_inner" >
+<div id="content">
   <div id="main">
     <section class="sec-2" id="about">
     <div class="container-2">
