@@ -27,8 +27,8 @@
 
           <!-- お知らせ -->
           <section class="front_news">
-          <div class="sec_head">お知らせ</div>
           <div class="news_list">
+          <div class="sec_head">お知らせ</div>
             <ul>
 
             <?php if (have_posts()):while(have_posts()):the_post();?>
