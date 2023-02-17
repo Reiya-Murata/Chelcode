@@ -53,7 +53,7 @@ function cpt_register_dep(){
       "query_var"=>true,
       "rewrite"=>["slug"=>"dep","with_front"=>true],
       "show_adomin_column"=>false,
-      "show_in_rest"=>ture,
+      "show_in_rest"=>true,
       "rest_base"=>"dep",
       "rest_controller_class"=>"WP_REST_Terms_controller",
       "show_in_quick_edit"=>false,
