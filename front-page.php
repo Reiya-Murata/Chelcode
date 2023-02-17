@@ -83,9 +83,11 @@
               <?php else:?>
               <?php endif;?>
               </div>
+              <div class="btn">
               <button>
                 <a href="<?php bloginfo('url');?>/works">一覧を見る</a>
               </button>
+              </div>
           </section>
 
   <?php get_footer();?>

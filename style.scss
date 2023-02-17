@@ -154,12 +154,8 @@ div.top{
       width: 400px;
       height: 200px;
       border: 1px solid rgb(250, 5, 238);
-    .btn{
-      justify-content: center;
-      align-items: center;
-      text-align: center;
     }
-    }
+
       li{
         color: white;
         list-style: none;
@@ -173,6 +169,11 @@ div.top{
     }
   }
 
+  .btn{
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
 section.work_list{
   background-color: rgba(0, 0, 0, 0.774);
   padding-bottom: 50px;
@@ -252,7 +253,7 @@ span.ling3{
 
 .sec-2{
   background-color: rgba(0, 0, 0, 0.774);
-  padding-bottom: 500px !important;
+  padding-bottom: 400px !important;
   padding-top: 50px;
 }
 
@@ -263,7 +264,7 @@ span.ling3{
 
 .sec-3{
 background-color:rgba(0, 0, 0, 0.850);
-padding: 50px 0 500px !important;
+padding: 50px 0 400px !important;
 }
 
 .container-3{ 
@@ -356,6 +357,7 @@ a{
   }
 
 div.space{
+  justify-content: center;
   padding-top: 40px;
   padding-bottom: 40px;
   text-align: center;
@@ -371,6 +373,7 @@ background-color: rgba(0, 0, 0, 0.850);
 .container-5{
   display: flex;
   justify-content: space-around;
+  padding-bottom: 300px;
   .portfolio{
     text-align: center;
   }
