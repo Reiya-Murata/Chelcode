@@ -623,6 +623,7 @@ p.space {
 }
 
 .label {
+  float: left;
   margin-right: 20px;
   width: 200px;
   border-left: 3px solid rgb(250, 5, 238);
