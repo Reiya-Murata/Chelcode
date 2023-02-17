@@ -27,18 +27,19 @@
 
           <!-- お知らせ -->
           <section class="front_news">
-          <div class="news_list">
           <div class="sec_head">お知らせ</div>
+          <div class="news_list">
             <ul>
 
             <?php if (have_posts()):while(have_posts()):the_post();?>
 
             <li>
               <a href="<?php the_permalink();?>">
-              <div class="date"><?php echo get_the_date("Y.m.d");?>  
-              </div>
+              <div class="date"><?php echo get_the_date("Y.m.d");?> 
               <div class="ttl"><?php the_title();?>
               </div>
+              </div>
+
               </a>
             </li>
 
@@ -57,7 +58,7 @@
             <!-- 制作実績 -->
             <section class="work_list">
             <div class="head">制作実績</div>
-            <div class="news_list">
+            <div class="work_list">
               <?php
               $args=array(
                 "post_type"=>"works",//投稿タイプスラッグ

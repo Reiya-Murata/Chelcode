@@ -19,7 +19,7 @@ Template Name:works
       <!-- #region -->
     <div class="portfolio">
       <?php echo CFS()->get("work_title_1");?>
-      <a href="<?php echo CFS()->get("work_url_1");?>"><img class="work" src="<?php echo CFS()->get("work_img_1");?>" alt="制作サイト1"></a>
+      <?php echo CFS()->get("work_url_1");?><img class="work" src="<?php echo CFS()->get("work_img_1");?>" alt="制作サイト1"></a>
     </div>
     <div class="portfolio">
     <?php echo CFS()->get("work_title_2");?>
@@ -28,6 +28,7 @@ Template Name:works
     <?php echo CFS()->get("work_title_3");?>
       <a href="<?php echo CFS()->get("work_url_3");?>"><img class="work" src="<?php echo CFS()->get("work_img_3");?>"></a>
     </div>
+  </div>
 
   </section>
 
