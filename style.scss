@@ -126,9 +126,9 @@ div.top{
 
 .container-1{
   position: relative;
-  height: 150vh;
+  height: 95vh;
   img{
-  height: 150vh;
+  height: 95vh;
   width: 100vw;
   }
   .content{
@@ -148,7 +148,6 @@ div.top{
       text-align: left;
       .sec_head{
         text-align: center !important;
-        justify-content: center;
       }
       }
       margin-top: 0px;
@@ -169,7 +168,13 @@ div.top{
     }
   }
 
+.work_list{
+  background-color: rgba(0, 0, 0, 0.774);
+  padding-bottom: 50px;
+  padding-top: 50px;
 }
+
+
 
 .loader{
   position: absolute;

@@ -285,31 +285,36 @@ div.top {
   transform: translate(-50%, -50%);
   margin: 0 !important;
   padding: 0 !important;
-}
-.container-1 .content .front_news {
-  margin-top: 10px;
-}
-.container-1 .content .news_list {
-  text-align: left;
   margin-top: 0px;
   padding: 10px;
   width: 400px;
   height: 200px;
   border: 1px solid rgb(250, 5, 238);
 }
-.container-1 .content .news_list p {
-  opacity: 1 !important;
-  vertical-align: top;
+.container-1 .content .front_news {
+  margin-top: 10px;
 }
-.container-1 .content .news_list li {
+.container-1 .content .news_list {
+  text-align: left;
+}
+.container-1 .content .news_list .sec_head {
+  text-align: center !important;
+}
+.container-1 .content li {
   color: white;
   list-style: none;
 }
-.container-1 .content .news_list .date {
+.container-1 .content .date {
   color: white;
 }
-.container-1 .content .news_list .ttl {
+.container-1 .content .ttl {
   color: white;
+}
+
+.work_list {
+  background-color: rgba(0, 0, 0, 0.774);
+  padding-bottom: 50px;
+  padding-top: 50px;
 }
 
 .loader {
