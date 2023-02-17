@@ -452,11 +452,20 @@ font-weight: bold;
 }
 
 .td-left::before{
-border-left:  2px solid rgb(250, 5, 238);
+border-left:  20px solid rgb(250, 5, 238);
 }
-
+.td_left{
+  width: 135px;
+  padding-top: 0px !important;
+  padding-bottom: 5px !important;
+}
 .td_right{
   width:300px;
+  padding-top: 0px !important;
+  padding-bottom: 5px !important;
+}
+.center{
+  text-align: center !important;
 }
 form{
   width: 460px;
