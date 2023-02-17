@@ -1,4 +1,6 @@
-<!-- お知らせアーカイブ作成 -->
+<?php
+
+// お知らせアーカイブ作成
 function post_has_archive($args,$post_type){//設定後にパーマリンク更新
 if("post"==$post_type){
   $args["rewrite"]=true;
@@ -9,7 +11,7 @@ return $args;
 }
 add_filter("register_post_type_args","post_has_archive",10,2);
 
-<!-- 投稿タイプ追加 -->
+// 投稿タイプ追加 
 function cpt_register_works(){
   $label=[
     "singular_name"=>"works",
@@ -37,7 +39,7 @@ function cpt_register_works(){
 }
 add_action("init","cpt_register_works");
 
-<!-- カテゴリー追加 -->
+// カテゴリー追加 
 function cpt_register_dep(){
   $labels=[
     "singular_name"=>"dep",
@@ -59,3 +61,6 @@ function cpt_register_dep(){
       register_taxonomy("dep",["worlks"],$args);
 }
 add_action("init","cpt_register_dep");
+
+
+?>

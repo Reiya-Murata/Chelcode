@@ -1,10 +1,10 @@
 <?php get_header();?>
 
-<div id="conttent" class="page_wrap winner" >
+<div id="content" class="page_wrap w_inner" >
 
 <?php if (have_posts()):while(have_posts()):the_post();?>
 
-<h1><?php the_titele();?></h1>
+<h1><?php the_title();?></h1>
 <div class="page_container">
   <?php the_content();?>
 </div>

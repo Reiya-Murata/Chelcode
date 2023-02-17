@@ -1,6 +1,6 @@
 <?php get_header();?>
 
-<div id="conttent" class="page_wrap winner" >
+<div id="content" class="page_wrap w_inner" >
 
   <div id="main">
     <section class="sec-4" id="quality">
