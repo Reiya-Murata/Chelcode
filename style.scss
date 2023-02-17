@@ -146,11 +146,15 @@ div.top{
         opacity: 1 !important;
         vertical-align: top;
       }
-      margin-top: 50px;
+      margin-top: 20px;
       padding: 10px;
       width: 400px;
       height: 200px;
       border: 1px solid rgb(250, 5, 238);
+      li{
+        color: white;
+        list-style: none;
+      }
     }
   }
 
@@ -207,16 +211,6 @@ span.ling3{
   }
   100%{
     transform: rotate(360deg);
-  }
-}
-
-.news_list{
-  list-style: none !important;
-  ul{
-    list-style: none !important;
-    li{
-      list-style: none !important;
-    }
   }
 }
 
