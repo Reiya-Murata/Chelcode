@@ -253,7 +253,7 @@ span.ling3{
 
 .sec-2{
   background-color: rgba(0, 0, 0, 0.774);
-  padding-bottom: 400px !important;
+  padding-bottom: 300px !important;
   padding-top: 50px;
 }
 
@@ -265,7 +265,7 @@ span.ling3{
 
 .sec-3{
 background-color:rgba(0, 0, 0, 0.850);
-padding: 50px 0 400px !important;
+padding: 50px 0 300px !important;
 }
 
 .container-3{ 
@@ -372,6 +372,7 @@ background-color: rgba(0, 0, 0, 0.850);
 }
 
 .container-5{
+  text-align: center;
   display: flex;
   justify-content: space-around;
   padding-bottom: 250px;
@@ -381,6 +382,9 @@ background-color: rgba(0, 0, 0, 0.850);
   .portfolio{
     max-width: 30%;
     max-height: auto;
+  }
+  a{
+    color: white;
   }
 div{
   padding-top: 30px;

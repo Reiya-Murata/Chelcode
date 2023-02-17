@@ -11,11 +11,11 @@ Template Name:works
 
 
   <section class="sec-5" id="work">
-    <div class="works">
+    
+      <
+      <div class="container-5">
       <h1>WORKS</h1>
         <p>制作実績</p>
-      <div class="container-5">
-        
       <!-- #region -->
     <div class="portfolio">
       <?php echo CFS()->get("work_title_1");?>
