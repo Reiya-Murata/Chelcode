@@ -169,7 +169,7 @@ div.top{
 
     .w_inner{
       background-color: rgba(0, 0, 0, 0.774) !important;
-      padding: 100px 50px !important;
+      padding: 50px 0px !important;
       li{
         list-style: none;
       }
@@ -451,22 +451,7 @@ margin-bottom: 20px;
 font-weight: bold;
 }
 
-.td_left{
-  border-left:  3px solid rgb(250, 5, 238);
-  width: 135px;
-  padding-top: 0px !important;
-  padding-bottom: 5px !important;
-}
-.td_right{
-  input{
-  width:300px;
-  padding-top: 0px !important;
-  padding-bottom: 5px !important;
-  textalia{
-    width: 300px !important;
-    }
-  }
-}
+
 .center{
   text-align: center !important;
 }
@@ -483,19 +468,19 @@ form{
 .label{
   float: left;
   margin-right: 20px;
-  width: 135px;
+  width: 160px;
   border-left:3px solid rgb(250, 5, 238) ;
   padding-left: 10px;
 }
-.inputs{
-  float: left;
+input{
   width: 300px;
 }
 
 input[type="text"],
-input[type="email"]{
+input[type="email"],
+input[type=texttaria]{
 border: solid 1px #aaa;
-padding: 10px ; 
+padding: 0px; 
 border-radius: 5px;
 }
 textarea{
@@ -521,7 +506,9 @@ input[type="submit"]{
   box-shadow: 1px 1px 3px black;
   cursor: pointer;
 }
-
+.btn-under{
+  padding-bottom: 50px !important;
+}
 .copyright{
   background-color: rgba(0, 0, 0, 0.774);
   text-align: center;
