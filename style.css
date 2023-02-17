@@ -517,6 +517,7 @@ div.space {
   display: flex;
   justify-content: space-around;
   padding-bottom: 250px;
+  padding-top: 30px;
 }
 .container-5 .portfolio {
   text-align: center;
