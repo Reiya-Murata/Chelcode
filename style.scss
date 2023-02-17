@@ -11,6 +11,9 @@ Version:1.0
   padding: 0;
   box-sizing: border-box;
 }
+section{
+  padding-top: -10px !important;
+}
 
 body{
   font-family: serif;
@@ -163,7 +166,7 @@ div.top{
         color: white;
       }
     }
-    
+
     .w_inner{
       background-color: rgba(0, 0, 0, 0.774) !important;
       padding: 100px 50px !important;
