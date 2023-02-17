@@ -12,10 +12,12 @@
         </div>
         <div class="main">
           <div class="top">
+          <div>
           <h1 class="chelcode">Chel<span  class="purple">Code</span></h1>
           <h2>portfolio site</h2>
           <a href="https://twitter.com/Rachel_hkz"  class="ps-pe-3"><box-icon type="logo"  name="twitter" ></box-icon></a>
           <a href="https://github.com/reiya-murata"><box-icon type="logo"   name="github" ></box-icon></a>
+          </div>
           <br><h3>HP制作・LP制作</h3>
           <h3>コーディング業務</h3>
           <h3>WordPressサイト制作</h3>
