@@ -247,7 +247,7 @@ span.ling3{
 
 .sec-2{
   background-color: rgba(0, 0, 0, 0.774);
-  padding-bottom: 500px;
+  padding-bottom: 500px !important;
   padding-top: 50px;
 }
 
@@ -258,7 +258,7 @@ span.ling3{
 
 .sec-3{
 background-color:rgba(0, 0, 0, 0.850);
-padding: 50px 0 500px;
+padding: 50px 0 500px !important;
 }
 
 .container-3{ 
@@ -338,7 +338,7 @@ a{
   .container-4 {
     display: flex;
     justify-content: space-around;
-    padding-bottom: 50px;
+    padding-bottom: 50px !important;
   }
   .pc-img {
     img{
@@ -395,7 +395,14 @@ div{
 .sec-6{
   background-color: rgba(0, 0, 0, 0.774);
   padding-bottom: 50px;
+  h1.space{
+    padding-top: 30px;
+  }
+  .container-6{
+    display: flex;
+  }
 }
+
 p.space{
   padding-bottom: 25px;
 }

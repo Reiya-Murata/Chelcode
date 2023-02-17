@@ -6,7 +6,7 @@
 
     <section class="sec-6" id="price">
       <div class="space">
-        <h1>PRICE</h1>
+        <h1 class="space">PRICE</h1>
         <p class="space">価格</p>
         <div class="container-6">
           <div class="sec-3-contents">
