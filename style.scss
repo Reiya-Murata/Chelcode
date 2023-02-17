@@ -140,13 +140,17 @@ div.top{
     transform: translate(-50%,-50%);
     margin:0 !important;
     padding:0 !important;
+
+    .front_news{
+      margin-top: 10px;
+    }
     .news_list{
       text-align: left;
       p{
         opacity: 1 !important;
         vertical-align: top;
       }
-      margin-top: 20px;
+      margin-top: 0px;
       padding: 10px;
       width: 400px;
       height: 200px;

@@ -5,7 +5,7 @@
 
     <?php if (have_poot()):while(have_post()):the_post();?>
 
-    <li><a href="<?php the_parmalink();?>">
+    <li><a href="<?php the_permalink();?>">
     <div class="dete"><?php echo get_the_date("Y.m.d");?>  
     </div>
     <div class="ttl"><?php the_title();?>

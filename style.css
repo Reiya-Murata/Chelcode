@@ -286,9 +286,12 @@ div.top {
   margin: 0 !important;
   padding: 0 !important;
 }
+.container-1 .content .front_news {
+  margin-top: 10px;
+}
 .container-1 .content .news_list {
   text-align: left;
-  margin-top: 20px;
+  margin-top: 0px;
   padding: 10px;
   width: 400px;
   height: 200px;

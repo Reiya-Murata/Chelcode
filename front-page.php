@@ -34,7 +34,7 @@
             <?php if (have_posts()):while(have_posts()):the_post();?>
 
             <li>
-              <a href="<?php the_parmalink();?>">
+              <a href="<?php the_permalink();?>">
               <div class="dete"><?php echo get_the_date("Y.m.d");?>  
               </div>
               <div class="ttl"><?php the_title();?>
@@ -68,7 +68,7 @@
               <ul>
                 <?php while($the_query->have_posts()):$the_query->the_post();?>
                 <li>
-                <a href="<?php the_parmalink();?>">
+                <a href="<?php the_permalink();?>">
                 <div class="img"><img src="<?php echo CFS()->get("thumbnail");?>"></div>
                 <div class="client">クライアント:<?php echo CFS()->get("client");?></div>
                 </a>
