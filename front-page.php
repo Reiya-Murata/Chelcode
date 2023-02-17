@@ -55,12 +55,15 @@
           </section>
 
           <!-- お知らせ -->
-          <div class="news">
+          <section class="front_news">
+          <div class="sec_head">お知らせ</div>
+          <div class="news_list">
             <ul>
 
             <?php if (have_posts()):while(have_posts()):the_post();?>
 
-            <li><a href="<?php the_parmalink();?>">
+            <li>
+              <a href="<?php the_parmalink();?>">
               <div class="dete"><?php echo get_the_date("Y.m.d");?>  
               </div>
               <div class="ttl"><?php the_title();?>
@@ -72,6 +75,7 @@
 
             </ul>
           </div>
+          </section>
           </div>
         </div>
       </div>
