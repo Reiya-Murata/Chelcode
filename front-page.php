@@ -48,7 +48,7 @@
 
             </ul>
           
-          <div class="btn"><button><a href="">一覧を見る</a></button></div>
+          <div class="btn"><button><a href="<?php bloginfo('url')?>/news">一覧を見る</a></button></div>
           </div>
           </section>
           </div>
