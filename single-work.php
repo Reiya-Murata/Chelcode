@@ -16,7 +16,7 @@
     <div class="btn-link" ><?php echo CFS()->get("link");?></div>
   </div>
 
-  <?php the content();?>
+  <?php the_content();?>
 <?php endwhile;endif;?>
 </div>
 
