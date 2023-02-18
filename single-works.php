@@ -10,9 +10,10 @@
   <div class="txt">
     <div class="client">クライアント:<?php echo CFS()->get("client");?>
     </div>
+    <br>
     <div class="head">成果</div>
     <div class="con"><?php echo CFS()->get("results");?></div>
-    <div class="btn-link" ><?php echo CFS()->get("link");?></div>
+    <div class="btn-link"><?php echo CFS()->get("link");?></div>
   </div>
 
   <?php the_content();?>

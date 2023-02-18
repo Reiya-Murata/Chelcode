@@ -37,7 +37,7 @@ Template Name:works
         </div>
     
     </div>
-    <div class="space"><a href="">一覧を見る</a></div>
+    <div class="space"><a href="<?php bloginfo('url');?>/archive-work">一覧を見る</a></div>
   </div>
 </section>
 </div>
