@@ -29,14 +29,20 @@
     animation: animete 5s linear infinite;
   }
   .chelcode{
+    padding-top: 0px !important;
     font-size: 4rem !important;
   }
   .icons{
     text-align: center;
   }
   .news_list{
-    width: 300px !important;
-    height: 100px !important;
+    width: 350px !important;
+    height: 200px !important;
+  }
+  .front_news{
+    width: 350px !important;
+    height: 200px;
+    font-size: 0.8rem !important;
   }
   .sec-2{
     text-align: start;
@@ -92,7 +98,7 @@
     width: 300px !important;
     height: 250px;
     background-size: cover;
-    padding:20px 100px 50px 0 !important;}  
+    }  
   }
   div.check{
     padding-left: 20px ;
@@ -101,23 +107,35 @@
   .container-5{
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    .portfolio{
-      text-align: center;
-    }
-  
+    justify-content: center !important;
+    align-items:center !important ;
     img{
       width: 90%;
       height:90%;
       background-size:cover ;
     }
   }
+  .portfolio{
+    max-width: 90% !important;
+    text-align: center;
+    flex-direction: column;
+  }
+  .thumb{
+    padding: 20px;
+    img{
+    width: 300px !important;
+    height: auto;
+    }
+  }
+  .container-6{
+    flex-direction: column !important;
+    justify-content: center !important;
+    align-items: center !important;
+  }
   .contactform{
-
     border: 2px solid rgb(250, 5, 238) ;
     padding: 20px !important;;
     }
-    
     
     form{
       width: 330px !important;
@@ -154,5 +172,10 @@
       margin: 0 auto !important;
       padding: 0 auto !important;
     }
+
+    .w_inner_single_work_container{
+      flex-direction: column !important;
+    }
+    
 }
 // メディアクエリ閉じタ

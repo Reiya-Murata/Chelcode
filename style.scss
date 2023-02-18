@@ -168,12 +168,15 @@ div.top{
       .date{
         color: white;
       }
-      .ttl{
+    }
+          .ttl{
+        padding-top: 20px;
         color: white;
       }
-    }
 
     .w_inner{ 
+      padding: 50px 20px;
+      background-color: rgba(0, 0, 0, 0.774) ;
       li{
         list-style: none;
       }
@@ -187,19 +190,22 @@ div.top{
     align-items: center;
     text-align: center;
     z-index: 10;
+    align-items: end;
   }
 section.work_list{
   background-color: rgba(0, 0, 0, 0.774);
   padding-bottom: 50px;
-  padding-top: 50px;
   div.work_list{
     display: flex;
   }
   .head{
+    padding-top: 30px;
     text-align: center;
   }
 }
-
+.client{
+padding-bottom: 20px;
+}
 
 
 .loader{
@@ -394,7 +400,6 @@ div.works{
 }
 
 .container-5{
-  padding-top: 30px;
   text-align: center;
   display: flex;
   justify-content: space-around;
@@ -409,9 +414,7 @@ div.works{
   a{
     color: white;
   }
-div{
-  padding-top: 30px;
-}
+
   img{
     width: 90%;
     height:90%;
@@ -524,6 +527,8 @@ input[type="submit"]{
   padding-top: 100px;
   padding-bottom: 50px;
   display: flex;
+  justify-content: center;
+  align-items: center;
   .thumb{
     padding: 20px;
     img{

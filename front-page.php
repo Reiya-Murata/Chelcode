@@ -91,7 +91,7 @@
               </div>
               <div class="btn">
               <button>
-                <a href="<?php bloginfo('url');?>/archive-work">一覧を見る</a>
+                <a href="<?php bloginfo('url');?>/works">一覧を見る</a>
               </button>
               </div>
               </section>
