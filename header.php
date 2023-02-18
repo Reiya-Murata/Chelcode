@@ -41,33 +41,37 @@
 <!-- heade img　条件分岐 -->
       <?php if(is_front_page()){?>
         <div class="header_img1"><!-- topページ -->
-        <img src="<?php bloginfo('template_url');?>/img/hader_img.jpg">
+          <img src="<?php bloginfo('template_url');?>/img/hader_img.jpg">
         </div>
       <?php }else if(is_page('about')){?>
         <div class="header_img"><!-- aboutページ -->
-        <img src="<?php bloginfo('template_url');?>/img/24633751_l.jpg">
+          <img src="<?php bloginfo('template_url');?>/img/24633751_l.jpg">
         </div>
-        <?php }else if(is_page('service')){?>
-          <div class="header_img"><!-- serviceページ -->
-        <img src="<?php bloginfo('template_url');?>/img/24633751_l.jpg" >
-      </div>
+      <?php }else if(is_page('service')){?>
+        <div class="header_img"><!-- serviceページ -->
+          <img src="<?php bloginfo('template_url');?>/img/24633751_l.jpg" >
+        </div>
       <?php }else if(is_page('quality')){?>
         <div class="header_img"><!-- qualityページ -->
-        <img src="<?php bloginfo('template_url');?>/img/24633751_l.jpg" >
+          <img src="<?php bloginfo('template_url');?>/img/24633751_l.jpg" >
         </div>
-        <?php }else if(is_page('works')){?>
-          <div class="header_img"><!-- worlks -->
-        <img src="<?php bloginfo('template_url');?>/img/24633751_l.jpg" >
-      </div>
+      <?php }else if(is_page('works')){?>
+        <div class="header_img"><!-- worlks -->
+          <img src="<?php bloginfo('template_url');?>/img/24633751_l.jpg" >
+        </div>
       <?php }else if(is_page('price')){?>
-        <div class="header_img"><!-- priceページ -->
-        <img src="<?php bloginfo('template_url');?>/img/24633751_l.jpg" >
-        </div>
-        <?php }else if(is_page('contact')){?>
-          <div class="header_img"><!-- contactページ -->
+      <div class="header_img"><!-- priceページ -->
         <img src="<?php bloginfo('template_url');?>/img/24633751_l.jpg" >
       </div>
-        <?php }else{}?>
+      <?php }else if(is_page('contact')){?>
+        <div class="header_img"><!-- contactページ -->
+          <img src="<?php bloginfo('template_url');?>/img/24633751_l.jpg" >
+        </div>
+      <?php }else if(is_archive()){?>
+        <div class="header_img"><!-- contactページ -->
+          <img src="<?php bloginfo('template_url');?>/img/24633751_l.jpg" >
+        </div>
+      <?php }else{}?>
 
 <script>
   const burger=document.querySelector(".burger");
