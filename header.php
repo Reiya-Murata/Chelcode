@@ -71,6 +71,10 @@
         <div class="header_img"><!-- contactページ -->
           <img src="<?php bloginfo('template_url');?>/img/24633751_l.jpg" >
         </div>
+      <?php }else if(is_single()){?>
+        <div class="header_img"><!-- contactページ -->
+          <img src="<?php bloginfo('template_url');?>/img/24633751_l.jpg" >
+        </div>
       <?php }else{}?>
 
 <script>
