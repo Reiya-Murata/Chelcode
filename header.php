@@ -55,7 +55,7 @@
         <div class="header_img"><!-- qualityページ -->
           <img src="<?php bloginfo('template_url');?>/img/24633751_l.jpg" >
         </div>
-      <?php }else if(is_page('works')){?>
+      <?php }else if(is_page('work')){?>
         <div class="header_img"><!-- worlks -->
           <img src="<?php bloginfo('template_url');?>/img/24633751_l.jpg" >
         </div>

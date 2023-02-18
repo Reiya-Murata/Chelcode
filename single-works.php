@@ -8,9 +8,8 @@
     <img src="<?php echo CFS()->get('thumbnail');?>" alt="">
   </div>
   <div class="txt">
-    <div class="client">クライアント:<?php echo CFS()-get("client");?>
+    <div class="client">クライアント:<?php echo CFS()->get("client");?>
     </div>
-
     <div class="head">成果</div>
     <div class="con"><?php echo CFS()->get("results");?></div>
     <div class="btn-link" ><?php echo CFS()->get("link");?></div>

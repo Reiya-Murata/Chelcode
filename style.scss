@@ -29,7 +29,10 @@ h1{
   font-size: 2rem !important;
 }
 a{
-  color:white;
+  color:white !important;
+}
+li{
+  list-style: none !important;
 }
 // 初期化
 header{
@@ -125,7 +128,7 @@ div.top{
   height: 25vh;
   width: 100vw;
   img{
-    height: 30vh;
+    height: 25vh;
     width:100vw;
   }
 }
@@ -395,7 +398,7 @@ div.works{
   text-align: center;
   display: flex;
   justify-content: space-around;
-  padding-bottom: 250px;
+  padding-bottom: 50px;
   .portfolio{
     text-align: center;
   }
@@ -515,3 +518,16 @@ input[type="submit"]{
   text-align: center;
 }
 
+// 制作実績個別ページ
+.w_inner_single_work_container{
+  background-color: rgba(0, 0, 0, 0.774);
+  padding-top: 100px;
+  padding-bottom: 50px;
+  display: flex;
+  .thumb{
+    img{
+    width: 400px;
+    height: auto;
+    }
+  }
+}

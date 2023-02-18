@@ -178,7 +178,11 @@ h1 {
 }
 
 a {
-  color: white;
+  color: white !important;
+}
+
+li {
+  list-style: none !important;
 }
 
 header {
@@ -274,7 +278,7 @@ div.top {
   width: 100vw;
 }
 .header_img img {
-  height: 30vh;
+  height: 25vh;
   width: 100vw;
 }
 
@@ -538,7 +542,7 @@ div.works {
   text-align: center;
   display: flex;
   justify-content: space-around;
-  padding-bottom: 250px;
+  padding-bottom: 50px;
 }
 .container-5 .portfolio {
   text-align: center;
@@ -661,4 +665,15 @@ input[type=submit] {
 .copyright {
   background-color: rgba(0, 0, 0, 0.774);
   text-align: center;
+}
+
+.w_inner_single_work_container {
+  background-color: rgba(0, 0, 0, 0.774);
+  padding-top: 100px;
+  padding-bottom: 50px;
+  display: flex;
+}
+.w_inner_single_work_container .thumb img {
+  width: 400px;
+  height: auto;
 }/*# sourceMappingURL=style.css.map */

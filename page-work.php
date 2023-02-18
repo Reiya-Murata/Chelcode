@@ -37,7 +37,7 @@ Template Name:works
         </div>
     
     </div>
-    <a href="">一覧を見る</a>
+    <div class="space"><a href="">一覧を見る</a></div>
   </div>
 </section>
 </div>
