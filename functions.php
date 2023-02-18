@@ -12,13 +12,13 @@ return $args;
 add_filter("register_post_type_args","post_has_archive",10,2);
 
 // 投稿タイプ追加 
-function cpt_register_works(){
+function cpt_register_work(){
   $label=[
-    "singular_name"=>"works",
-    "edit_item="=>"works",
+    "singular_name"=>"work",
+    "edit_item="=>"work",
   ];
   $args=[
-    "label"=>"works",
+    "label"=>"work",
     "labels"=>$labels,
     "description"=>"",
     "public"=>true,
@@ -30,14 +30,14 @@ function cpt_register_works(){
     "exclude_from_search"=>false,
     "map_meta_cap"=>true,
     "hierarchical"=>true,
-    "rewrite"=>["slug"=>"works","with_front"=>true],
+    "rewrite"=>["slug"=>"work","with_front"=>true],
     "query_var"=>true,
     "menu_position"=>5,
     "supports"=>["title","editor","thumbnail"],
     ];
-    register_post_type("works",$args);
+    register_post_type("work",$args);
 }
-add_action("init","cpt_register_works");
+add_action("init","cpt_register_work");
 
 // カテゴリー追加 
 function cpt_register_dep(){
@@ -58,7 +58,7 @@ function cpt_register_dep(){
       "rest_controller_class"=>"WP_REST_Terms_controller",
       "show_in_quick_edit"=>false,
       ];
-      register_taxonomy("dep",["worlks"],$args);
+      register_taxonomy("dep",["work"],$args);
 }
 add_action("init","cpt_register_dep");
 

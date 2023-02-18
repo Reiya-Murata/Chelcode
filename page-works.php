@@ -10,7 +10,7 @@ Template Name:works
 
 
 
-  <section class="sec-5" id="works">
+  <section class="sec-5 w_inner" id="works">
     <div class="works">
       <h1>WORKS</h1>
       <p>制作実績</p>
