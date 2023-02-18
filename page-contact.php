@@ -1,6 +1,6 @@
 <?php get_header();?>
 
-<div id="content" class="page_wrap w_inner" >
+<div id="content">
 <section class="contact" id="contact">
   
   <div class="space-2">
