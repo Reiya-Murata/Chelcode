@@ -27,7 +27,7 @@
           <li><a href="<?php bloginfo("url");?>/about">ABOUT</a></li>
           <li><a href="<?php bloginfo("url");?>/service">SERVICE</a></li>
           <li><a href="<?php bloginfo("url");?>/quality">QUALITY</a></li>
-          <li><a href="<?php bloginfo("url");?>/works">WORKS</a></li>
+          <li><a href="<?php bloginfo("url");?>/work">WORK</a></li>
           <li><a href="<?php bloginfo("url");?>/price">PRICE</a></li>
           <li><a href="<?php bloginfo("url");?>/contact">CONTACT</a></li>
         </ul>

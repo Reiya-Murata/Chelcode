@@ -1,6 +1,6 @@
 <?php get_header();?>
 
-<div class="w_inner_single_works_container" id="content">
+<div class="w_inner_single_work_container" id="content">
 
   <?php if (have_posts()):while(have_posts()):the_post();?>
   
