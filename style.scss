@@ -525,9 +525,14 @@ input[type="submit"]{
   padding-bottom: 50px;
   display: flex;
   .thumb{
+    padding: 20px;
     img{
     width: 400px;
     height: auto;
     }
+  }
+  .btn-link{
+    padding-top: 20px;
+    background-color: blue;
   }
 }

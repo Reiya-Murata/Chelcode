@@ -673,7 +673,14 @@ input[type=submit] {
   padding-bottom: 50px;
   display: flex;
 }
+.w_inner_single_work_container .thumb {
+  padding: 20px;
+}
 .w_inner_single_work_container .thumb img {
   width: 400px;
   height: auto;
+}
+.w_inner_single_work_container .btn-link {
+  padding-top: 20px;
+  background-color: blue;
 }/*# sourceMappingURL=style.css.map */
