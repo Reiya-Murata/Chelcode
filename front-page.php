@@ -35,7 +35,7 @@
             <li>
             
               <a href="<?php the_permalink();?>">
-              <div class="date"><?php echo get_the_date("Y.m.d");?> 
+              <div class="date1"><?php echo get_the_date("Y.m.d");?> 
               <?php the_title();?>
               
               </div>
@@ -58,36 +58,33 @@
 
             <!-- 制作実績 -->
             <section class="work_list">
-            <div class="container-5"> 
-            <div class="portfolio txt">
-            
             <div class="head">制作実績</div>
-            <div class="work_list">
+            <div class="container-5"> 
+            
+            
+            
+            
               <?php
               $args=array(
                 "post_type"=>"works",//投稿タイプスラッグ
-                "post_per_page"=>3
+                "posts_per_page"=>3
               );
               $the_query=new WP_Query($args);
-              if($the_query->have_posts()):
-              ?>
-              <ul>
+              if($the_query->have_posts()):?>
                 <?php while($the_query->have_posts()):$the_query->the_post();?>
-                <li>
-                  <div>
+                
+                <div class="portfolio">
                   <a href="<?php the_permalink();?>">
                   <div class="img"><img src="<?php echo CFS()->get("thumbnail");?>"></div>
                   <div class="client">クライアント:<?php echo CFS()->get("client");?></div>
                   </a>
                 </div>
-                </li>
                 <?php endwhile;?>
-            </ul>
               </div>
               <?php wp_reset_postdata();?>
               <?php else:?>
               <?php endif;?>
-              </div>
+              
               </div>
               <div class="btn">
               <button>
