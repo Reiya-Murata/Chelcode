@@ -32,14 +32,16 @@ main.style.visibility="visible";
 },1500);
 };
 
-// スライダー
-$(document).on('ready', function() {
-  $(".regular_3").slick({
-    dots: true, // ドットインジケーターの表示
-    infinite: true, // スライドのループを有効にするか
-    slidesToShow: 3, // 表示するスライド数を設定
-    slidesToScroll: 1 // スクロールするスライド数を設定
+// クロスフェード
+$(document).ready(function () {
+  var $imageDiv = $("#imageRotator");
+  var $imageRotator = $imageDiv.imageRotator({
+    imageTime: 3000,
+    fadeTime: 2000
   });
+  $imageRotator.start();
 });
+
+
 
 

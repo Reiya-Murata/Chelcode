@@ -28,7 +28,7 @@
           <li><a href="<?php bloginfo("url");?>/service">SERVICE</a></li>
           <li><a href="<?php bloginfo("url");?>/quality">QUALITY</a></li>
           <li><a href="<?php bloginfo("url");?>/work">WORK</a></li>
-          <li><a href="<?php bloginfo("url");?>/price">PRICE</a></li>
+          <!-- <li><a href="<?php bloginfo("url");?>/price">PRICE</a></li> -->
           <li><a href="<?php bloginfo("url");?>/contact">CONTACT</a></li>
         </ul>
         <div class="burger">
@@ -111,15 +111,22 @@ const main = document.querySelector(".main");
 main.style.visibility="visible";
 },1500);
 };
-
-// スライダー
-$(document).on('ready', function() {
-  $(".regular_3").slick({
-    dots: true, // ドットインジケーターの表示
-    infinite: true, // スライドのループを有効にするか
-    slidesToShow: 3, // 表示するスライド数を設定
-    slidesToScroll: 1 // スクロールするスライド数を設定
+</script>
+<!-- jQuery -->
+<script src="https://code.jquery.com/jquery-3.6.3.min.js" integrity="sha256-pvPw+upLPUjgMXY0G+8O0xUf+/Im1MZjXxxgOcBQBXU=" crossorigin="anonymous"></script>
+<!-- クロスフェード -->
+<script type="text/javascript">
+  $(function(){
+      var setImg = '#viewer';
+      var fadeSpeed = 2000;
+      var switchDelay = 5000;
+    
+      $(setImg).children('img').css({opacity:'0'});
+      $(setImg + ' img:first').stop().animate({opacity:'1',zIndex:'-1'},fadeSpeed);
+    
+      setInterval(function(){
+          $(setImg + ' :first-child').animate({opacity:'0',zIndex:'-2'},fadeSpeed).next('img').animate({opacity:'1',zIndex:'-1'},fadeSpeed).end().appendTo(setImg);
+      },switchDelay);
   });
-});
 </script>
     
