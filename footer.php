@@ -1,7 +1,6 @@
 <footer>
 <div class="copyright"><p>&copy2023 All right reserved</p></div>
 </footer>
-</script>
 <script src="https://unpkg.com/scrollreveal"></script>
 <script>
 ScrollReveal({ 

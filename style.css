@@ -214,7 +214,7 @@ section {
 }
 
 body {
-  font-family: serif;
+  font-family: "Lora", serif;
   color: rgb(255, 255, 255);
   overflow-x: hidden !important;
   z-index: 1;

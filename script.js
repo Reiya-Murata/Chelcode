@@ -40,7 +40,9 @@ $(document).ready(function () {
     fadeTime: 2000
   });
   $imageRotator.start();
+  
 });
+
 
 
 

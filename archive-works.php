@@ -16,7 +16,7 @@
   <a href="<?php the_permalink();?>">
     <div class="portfolio card-effect">
     <div class="img"><img src="<?php echo CFS()->get("thumbnail");?>"></div>
-    <div class="client">クライアント:<?php echo CFS()->get("client");?></div>
+    <div class="client">実績:<?php echo CFS()->get("client");?></div>
     </div>
   </a>
   <?php endwhile;?>

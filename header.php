@@ -24,9 +24,9 @@
         </div>
         <ul class="nav-links">
           <li><a href="<?php bloginfo("url");?>">HOME</a></li>
-          <li><a href="<?php bloginfo("url");?>/about">ABOUT</a></li>
-          <li><a href="<?php bloginfo("url");?>/service">SERVICE</a></li>
-          <li><a href="<?php bloginfo("url");?>/quality">QUALITY</a></li>
+          <li><a href="<?php bloginfo("url");?>/#about">ABOUT</a></li>
+          <li><a href="<?php bloginfo("url");?>/#service">SERVICE</a></li>
+          <li><a href="<?php bloginfo("url");?>/#quality">QUALITY</a></li>
           <li><a href="<?php bloginfo("url");?>/work">WORK</a></li>
           <!-- <li><a href="<?php bloginfo("url");?>/price">PRICE</a></li> -->
           <li><a href="<?php bloginfo("url");?>/contact">CONTACT</a></li>
@@ -68,11 +68,11 @@
           <img src="<?php bloginfo('template_url');?>/img/24633751_l.jpg" >
         </div>
       <?php }else if(is_archive()){?>
-        <div class="header_img"><!-- contactページ -->
+        <div class="header_img"><!-- archiveページ -->
           <img src="<?php bloginfo('template_url');?>/img/24633751_l.jpg" >
         </div>
       <?php }else if(is_single()){?>
-        <div class="header_img"><!-- contactページ -->
+        <div class="header_img"><!-- singleページ -->
           <img src="<?php bloginfo('template_url');?>/img/24633751_l.jpg" >
         </div>
       <?php }else{}?>
