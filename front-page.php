@@ -203,6 +203,20 @@
 </div>
 </div>
 
-          
+<script src="<?php echo get_template_directory_uri(); ?>/vegas.min.js">
+$('body').vegas({
+  delay: 5000,
+  timer: false,
+  shuffle: false,
+  firstTransitionDuration: 5000,
+  transition: 'zoomOut',
+  transitionDuration: 5000,
+  slides: [
+    { src: 'img/img1.jpg' },
+    { src: 'img/img2.jpg' },
+    { src: 'img/img3.jpg' },
+  ]
+});
+</script>
 
   <?php get_footer();?>

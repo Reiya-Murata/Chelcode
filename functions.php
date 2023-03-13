@@ -70,6 +70,10 @@ function my_scripts_method() {
   }
   add_action('wp_enqueue_scripts', 'my_scripts_method');
   
-
+  function my_theme_scripts() {
+    wp_enqueue_script( '-script', get_template_directory_uri() . '/js/wordpress/vegas.min.js', array('jquery'));
+  }
+  add_action( 'wp_enqueue_scripts', 'my_theme_scripts' );
+  
 
 ?>

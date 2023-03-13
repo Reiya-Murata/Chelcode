@@ -115,28 +115,12 @@ main.style.visibility="visible";
 </script>
 <!-- jQuery -->
 <script src="https://code.jquery.com/jquery-3.6.3.min.js" integrity="sha256-pvPw+upLPUjgMXY0G+8O0xUf+/Im1MZjXxxgOcBQBXU=" crossorigin="anonymous"></script>
+
+
+
 <!-- クロスフェード -->
 
 
-
-  
-
-// クロスフェード
-<script src="vegas.min.js">
-$('body').vegas({
-  delay: 5000,
-  timer: false,
-  shuffle: false,
-  firstTransitionDuration: 5000,
-  transition: 'zoomOut',
-  transitionDuration: 5000,
-  slides: [
-    { src: 'img/img1.jpg' },
-    { src: 'img/img2.jpg' },
-    { src: 'img/img3.jpg' },
-  ]
-});
-</script>
 
 
     
