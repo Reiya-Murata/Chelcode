@@ -62,5 +62,14 @@ function cpt_register_dep(){
 }
 add_action("init","cpt_register_dep");
 
+function my_scripts_method() {
+  wp_enqueue_script(
+              'custom_script',
+              get_template_directory_uri() . '/vegas.min.js',
+        );
+  }
+  add_action('wp_enqueue_scripts', 'my_scripts_method');
+  
+
 
 ?>

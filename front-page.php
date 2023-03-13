@@ -2,10 +2,10 @@
   <!-- 1st-section -->
   <section class="sec-1" id="home">
     <div class="container-1">
-    <div id="viewer">
-        <img src="<?php bloginfo("template_url");?>/img/img1.jpg" alt="" class="slide_item">
-        <img src="<?php bloginfo("template_url");?>/img/img2.jpg" alt="" class="slide_item">
-        <img src="<?php bloginfo("template_url");?>/img/img3.jpg" alt="" class="slide_item">
+    <div id="slides" class="vegas-container">
+        <img src="<?php bloginfo("template_url");?>/img/img1.jpg" alt="" class="slides">
+        <img src="<?php bloginfo("template_url");?>/img/img2.jpg" alt="" class="slides">
+        <img src="<?php bloginfo("template_url");?>/img/img3.jpg" alt="" class="slides">
       </div>
       <div class="content">
         <div class="loader">

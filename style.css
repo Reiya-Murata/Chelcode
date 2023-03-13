@@ -344,18 +344,12 @@ div.top {
   z-index: -2;
   overflow: hidden;
 }
-.container-1 #viewer img {
+.container-1 #slides img {
   width: 100vw;
   height: 95vh;
   position: absolute;
   background-size: cover;
   z-index: -2;
-  animation: animationZoom 5s ease infinite;
-}
-@keyframes animationZoom {
-  50% {
-    transform: scale(1.1);
-  }
 }
 .container-1 .content {
   position: absolute;

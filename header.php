@@ -6,11 +6,12 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="discripton" content="HP・LP・Webサイト格安で作成いたします!。最安5万円～。格安でホームページを作りたい企業様・個人事業主様お気軽にご相談ください!">
   <link rel="stylesheet" href="<?php bloginfo("template_url");?>/style.css">
-  <title>ChelCode 格安 HP・LP・Webサイト制作</title>
+  <title>ChelCode HP・LP・Webサイト制作</title>
   <link rel="icon" href="<?php bloginfo("template_url");?>/img/logo (5).png">
   <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@1,400;1,600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="<?php bloginfo("template_url");?>/vegas.min.css">
 <?php wp_head();?>
 </head>
 
@@ -115,18 +116,27 @@ main.style.visibility="visible";
 <!-- jQuery -->
 <script src="https://code.jquery.com/jquery-3.6.3.min.js" integrity="sha256-pvPw+upLPUjgMXY0G+8O0xUf+/Im1MZjXxxgOcBQBXU=" crossorigin="anonymous"></script>
 <!-- クロスフェード -->
-<script type="text/javascript">
-  $(function(){
-      var setImg = '#viewer';
-      var fadeSpeed = 2000;
-      var switchDelay = 5000;
-    
-      $(setImg).children('img').css({opacity:'0'});
-      $(setImg + ' img:first').stop().animate({opacity:'1',zIndex:'-1'},fadeSpeed);
-    
-      setInterval(function(){
-          $(setImg + ' :first-child').animate({opacity:'0',zIndex:'-2'},fadeSpeed).next('img').animate({opacity:'1',zIndex:'-1'},fadeSpeed).end().appendTo(setImg);
-      },switchDelay);
-  });
+
+
+
+  
+
+// クロスフェード
+<script src="vegas.min.js">
+$('body').vegas({
+  delay: 5000,
+  timer: false,
+  shuffle: false,
+  firstTransitionDuration: 5000,
+  transition: 'zoomOut',
+  transitionDuration: 5000,
+  slides: [
+    { src: 'img/img1.jpg' },
+    { src: 'img/img2.jpg' },
+    { src: 'img/img3.jpg' },
+  ]
+});
 </script>
+
+
     

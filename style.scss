@@ -144,18 +144,14 @@ div.top{
   z-index: -2;
   overflow: hidden;
 
-  #viewer img {
+  #slides img {
     width: 100vw;
     height: 95vh;
     position: absolute;
     background-size: cover;
     z-index: -2;
-    animation: animationZoom 5.0s ease infinite;
   }
-  @keyframes animationZoom {
-    50% { transform:scale(1.1)} 
-  }
-
+  
 
   .content{
     position: absolute;
